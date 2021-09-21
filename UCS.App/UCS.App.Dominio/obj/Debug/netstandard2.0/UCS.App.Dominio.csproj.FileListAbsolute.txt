@@ -1,0 +1,18 @@
+C:\UCSalones\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.csprojAssemblyReference.cache
+C:\UCSalones\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.AssemblyInfoInputs.cache
+C:\UCSalones\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.AssemblyInfo.cs
+C:\UCSalones\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.csproj.CoreCompileInputs.cache
+C:\UCSalones\UCS.App\UCS.App.Dominio\bin\Debug\netstandard2.0\UCS.App.Dominio.deps.json
+C:\UCSalones\UCS.App\UCS.App.Dominio\bin\Debug\netstandard2.0\UCS.App.Dominio.dll
+C:\UCSalones\UCS.App\UCS.App.Dominio\bin\Debug\netstandard2.0\UCS.App.Dominio.pdb
+C:\UCSalones\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.dll
+C:\UCSalones\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.pdb
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Dominio\bin\Debug\netstandard2.0\UCS.App.Dominio.deps.json
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Dominio\bin\Debug\netstandard2.0\UCS.App.Dominio.dll
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Dominio\bin\Debug\netstandard2.0\UCS.App.Dominio.pdb
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.csprojAssemblyReference.cache
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.AssemblyInfo.cs
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.dll
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.pdb

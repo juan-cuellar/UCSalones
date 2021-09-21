@@ -1,0 +1,24 @@
+C:\UCSalones\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csprojAssemblyReference.cache
+C:\UCSalones\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.AssemblyInfoInputs.cache
+C:\UCSalones\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.AssemblyInfo.cs
+C:\UCSalones\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\UCSalones\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Persistencia.deps.json
+C:\UCSalones\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Persistencia.dll
+C:\UCSalones\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Persistencia.pdb
+C:\UCSalones\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Dominio.dll
+C:\UCSalones\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Dominio.pdb
+C:\UCSalones\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csproj.CopyComplete
+C:\UCSalones\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.dll
+C:\UCSalones\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.pdb
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Persistencia.deps.json
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Persistencia.dll
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Persistencia.pdb
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Dominio.dll
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Dominio.pdb
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csprojAssemblyReference.cache
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.AssemblyInfo.cs
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csproj.CopyComplete
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.dll
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.pdb
