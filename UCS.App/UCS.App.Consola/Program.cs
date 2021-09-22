@@ -28,24 +28,21 @@ namespace UCS.App.Consola
             
             Console.WriteLine("\nOperaciones CRUD para Salones:");
             AddSalones();
-            BuscarSalones(1);
-            ActualizarSalones();
-            BuscarTodosLosSalones();
-            EliminarSalones(1);
+            //BuscarSalones(1);
+            //ActualizarSalones();
+            //BuscarTodosLosSalones();
+            //EliminarSalones(1);
 
             Console.WriteLine("\nOperaciones CRUD para Estudiante:");
             AddEstudiante();
-            BuscarEstudiante(1);
-            ActualizarEstudiante();
-            BuscarTodosLosEstudiantes();
-            EliminarEstudiante(1);
+            //BuscarEstudiante(1);
+            //ActualizarEstudiante();
+            //BuscarTodosLosEstudiantes();
+            //EliminarEstudiante(1);
 
             Console.WriteLine("\nOperaciones CRUD para Sistema Ingreso Personal:");
             AddSistemaIngresoPersonal();
-            
-
-
-
+           
         }
 
         //AddDirectivo
@@ -182,8 +179,6 @@ namespace UCS.App.Consola
             Console.WriteLine("");
             
         }
-
-
         
         /*
         Estudiante

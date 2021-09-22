@@ -20,7 +20,7 @@ namespace UCS.App.Persistencia
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder
-                .UseSqlServer(@"Data Source = (localdb)\MSSQLLocalDB; Initial Catalog = UCSalonesGrupo.Data");
+                .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = UCSalones.Data");
             }
         }
     }
