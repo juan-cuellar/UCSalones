@@ -6,6 +6,7 @@ using UCS.App.Persistencia;
 using System.Collections.Generic;
 using System.Linq;
 using UCS.App.Persistencia.AppRepositorio;
+using System.Security.Principal;
 
 namespace UCS.App.Consola
 {
@@ -22,26 +23,26 @@ namespace UCS.App.Consola
         {
             Console.WriteLine("Este es mi primer sprint");
             Console.WriteLine("\nOperaciones CRUD para Directivo:");
-            AddDirectivo();
-            ActualizarDirectivo();
-            BuscarTodosLosDirectivos();
+            //AddDirectivo();
+            //ActualizarDirectivo();
+            //BuscarTodosLosDirectivos();
             
             Console.WriteLine("\nOperaciones CRUD para Salones:");
-            AddSalones();
+            //AddSalones();
             //BuscarSalones(1);
             //ActualizarSalones();
             //BuscarTodosLosSalones();
             //EliminarSalones(1);
 
             Console.WriteLine("\nOperaciones CRUD para Estudiante:");
-            AddEstudiante();
+            //AddEstudiante();
             //BuscarEstudiante(1);
-            //ActualizarEstudiante();
+            ActualizarEstudiante();
             //BuscarTodosLosEstudiantes();
             //EliminarEstudiante(1);
 
             Console.WriteLine("\nOperaciones CRUD para Sistema Ingreso Personal:");
-            AddSistemaIngresoPersonal();
+            //AddSistemaIngresoPersonal();
            
         }
 
@@ -82,13 +83,13 @@ namespace UCS.App.Consola
         {
             var directivo = new Directivo 
             {
-               id = 2,
-               nombre = "Thomas",
-               apellido = "Ramirez",
-               identificacion = 110,
-               edad = 36,
+               id = 6,
+               nombre = "Cesar",
+               apellido = "Bustamante",
+               identificacion = 117,
+               edad = 42,
                EstadoCovid = EstadoCovid.covidPositivo,
-               unidadDesempeña = "Derecho"
+               unidadDesempeña = "Administrativo"
                
             };
             Directivo directivoretornado =_repoDirectivo.UpdateDirectivo(directivo);                         
@@ -232,13 +233,14 @@ namespace UCS.App.Consola
         {
             var estudiante = new Estudiante 
             {
-                nombre = "francisco",
-                apellido = "fortuna",
-                identificacion = 1111,
-                edad = 33,
-                EstadoCovid = EstadoCovid.covidPositivo,
-                carrera = "Ingenieria de sistemas",
-                Semestre = "7"
+                id = 9,
+                nombre = "Carlos Andres",
+                apellido = "Amado",
+                identificacion = 1010,
+                edad = 30,
+                EstadoCovid = EstadoCovid.covidNegativo,
+                carrera = "Lenguas Modernas",
+                Semestre = "5"
                
             };
             Estudiante EstudianteRetornado =_repoEstudiante.UpdateEstudiante(estudiante);                         
