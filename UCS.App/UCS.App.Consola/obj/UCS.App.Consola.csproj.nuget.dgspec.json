@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\Proyecto-primer-sprint-master\\UCS.App\\UCS.App.Consola\\UCS.App.Consola.csproj": {}
+    "C:\\neuromante-1984\\UCS.App\\UCS.App.Consola\\UCS.App.Consola.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\Proyecto-primer-sprint-master\\UCS.App\\UCS.App.Consola\\UCS.App.Consola.csproj": {
+    "C:\\neuromante-1984\\UCS.App\\UCS.App.Consola\\UCS.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\Proyecto-primer-sprint-master\\UCS.App\\UCS.App.Consola\\UCS.App.Consola.csproj",
+        "projectUniqueName": "C:\\neuromante-1984\\UCS.App\\UCS.App.Consola\\UCS.App.Consola.csproj",
         "projectName": "UCS.App.Consola",
-        "projectPath": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\Proyecto-primer-sprint-master\\UCS.App\\UCS.App.Consola\\UCS.App.Consola.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\Proyecto-primer-sprint-master\\UCS.App\\UCS.App.Consola\\obj\\",
+        "projectPath": "C:\\neuromante-1984\\UCS.App\\UCS.App.Consola\\UCS.App.Consola.csproj",
+        "packagesPath": "C:\\Users\\docentes\\.nuget\\packages\\",
+        "outputPath": "C:\\neuromante-1984\\UCS.App\\UCS.App.Consola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\docentes\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -25,11 +25,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\Proyecto-primer-sprint-master\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\Proyecto-primer-sprint-master\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj"
+              "C:\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
+                "projectPath": "C:\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj"
               },
-              "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\Proyecto-primer-sprint-master\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj": {
-                "projectPath": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\Proyecto-primer-sprint-master\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj"
+              "C:\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj": {
+                "projectPath": "C:\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj"
               }
             }
           }
@@ -73,17 +73,17 @@
         }
       }
     },
-    "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\Proyecto-primer-sprint-master\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
+    "C:\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\Proyecto-primer-sprint-master\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
+        "projectUniqueName": "C:\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
         "projectName": "UCS.App.Dominio",
-        "projectPath": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\Proyecto-primer-sprint-master\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\Proyecto-primer-sprint-master\\UCS.App\\UCS.App.Dominio\\obj\\",
+        "projectPath": "C:\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\docentes\\.nuget\\packages\\",
+        "outputPath": "C:\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\docentes\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -126,17 +126,17 @@
         }
       }
     },
-    "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\Proyecto-primer-sprint-master\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj": {
+    "C:\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\Proyecto-primer-sprint-master\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj",
         "projectName": "UCS.App.Persistencia",
-        "projectPath": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\Proyecto-primer-sprint-master\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\Proyecto-primer-sprint-master\\UCS.App\\UCS.App.Persistencia\\obj\\",
+        "projectPath": "C:\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\docentes\\.nuget\\packages\\",
+        "outputPath": "C:\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\docentes\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -147,8 +147,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\Proyecto-primer-sprint-master\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\Proyecto-primer-sprint-master\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj"
+              "C:\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
+                "projectPath": "C:\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj"
               }
             }
           }

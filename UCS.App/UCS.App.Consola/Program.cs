@@ -1,4 +1,5 @@
-﻿using System.Runtime.InteropServices;
+﻿using System.Data;
+using System.Runtime.InteropServices;
 using System;
 using UCS.App.Dominio;
 using UCS.App.Persistencia;
@@ -14,6 +15,8 @@ namespace UCS.App.Consola
         private static IRepositorioSalones _repoSalones = new RepositorioSalones(new Persistencia.AppContext());
 
         private static IRepositorioEstudiante _repoEstudiante = new RepositorioEstudiante(new Persistencia.AppContext());
+
+        private static IRepositorioSistemaIngresoPersonal _repoSistemaIngresoPersonal = new RepositorioSistemaIngresoPersonal(new Persistencia.AppContext());
 
         static void Main(string[] args)
         {
@@ -34,8 +37,9 @@ namespace UCS.App.Consola
             ActualizarEstudiante();
             EliminarEstudiante(1);
 
-
-
+            Console.WriteLine("\nOperaciones CRUD para Sistema Ingreso Personal:");
+            AddSistemaIngresoPersonal();
+            
         }
 
         //AddDirectivo
@@ -102,9 +106,6 @@ namespace UCS.App.Consola
             
         }
 
-
-
-
         //AddSalones
         private static void AddSalones()
         {
@@ -158,12 +159,7 @@ namespace UCS.App.Consola
                 Console.WriteLine("Se sustituyo un salon en la base de datos");
         
         }
-
-
         
-
-
-
         /*
         Estudiante
         */
@@ -230,7 +226,64 @@ namespace UCS.App.Consola
         
         }
 
-        
+         //AddSistemaIngresoPersonal
+        private static void AddSistemaIngresoPersonal()
+        {
+            var SistemaIngresoPersonal = new SistemaIngresoPersonal
+            {
+               horayFechaIngreso = DateTime.Parse("2014-10-23; 10:00"),
+               horayFechaSalida = DateTime.Parse("2014-10-23; 13:00"),
+               sede = "Central",
+               sintomas = Sintomas.congestion,
+               pruebacovid = true,
+               autoriza = true,
+               
+            };
 
+            Console.WriteLine("SistemaIngresoPersonal ingresado >> SistemaIngresoPersonal: "+ SistemaIngresoPersonal.horayFechaIngreso +" "+SistemaIngresoPersonal.horayFechaSalida);
+            SistemaIngresoPersonal SistemaIngresoPersonalRetornado = _repoSistemaIngresoPersonal.AddSistemaIngresoPersonal(SistemaIngresoPersonal);
+            if (SistemaIngresoPersonalRetornado!=null)
+            Console.WriteLine("Se realizo un nuevo registro en la base de datos:>> SistemaIngresoPersonal hora y fecha ingreso: "+SistemaIngresoPersonalRetornado.horayFechaIngreso+", fecha ingreso SistemaIngresoPersonal: "+SistemaIngresoPersonalRetornado.horayFechaSalida);
+        }
+
+
+        //BuscarSistemaIngresoPersonal
+        private static void BuscarSistemaIngresoPersonal (int idSistemaIngresoPersonal)
+        {
+            var SistemaIngresoPersonal = _repoSistemaIngresoPersonal.GetSistemaIngresoPersonal(idSistemaIngresoPersonal);
+            if(SistemaIngresoPersonal!=null){
+                Console.WriteLine("Se buscó un SistemaIngresoPersonal en la base de datos:>> Id SistemaIngresoPersonal: "+SistemaIngresoPersonal.id +" Hora ingreso SistemaIngresoPersonal: "+SistemaIngresoPersonal.horayFechaIngreso+" Hora salida SistemaIngresoPersonal: "+SistemaIngresoPersonal.horayFechaSalida);
+            }else{
+                Console.WriteLine("Error: Se buscó un SistemaIngresoPersonal en la base de datos y no se encontró resultado:>> id: "+idSistemaIngresoPersonal);
+            }
+            
+        }
+
+        //DeleteSistemaIngresoPersonal
+        private static void EliminarSistemaIngresoPersonal(int idSistemaIngresoPersonal)
+        {
+            _repoSistemaIngresoPersonal.DeleteSistemaIngresoPersonal(idSistemaIngresoPersonal);
+            Console.WriteLine("Se eliminó un registro de la base de datos: >> Sistema de ingreso con id "+idSistemaIngresoPersonal);
+        }
+
+
+        //UpdateSistemaIngresoPersonal
+        private static void ActualizarSistemaIngresoPersonal()
+        {
+            var SistemaIngresoPersonal = new SistemaIngresoPersonal
+            {
+               horayFechaIngreso = DateTime.Parse("2015-08-23; 8:00"),
+               horayFechaSalida = DateTime.Parse("2015-08-23; 12:00"),
+               sede = "Central",
+               sintomas = Sintomas.congestion,
+               pruebacovid = false,
+               autoriza = true,
+            };
+
+            SistemaIngresoPersonal SistemaIngresoPersonalretornado =_repoSistemaIngresoPersonal.UpdateSistemaIngresoPersonal(SistemaIngresoPersonal);                         
+            if (SistemaIngresoPersonalretornado!=null)
+                Console.WriteLine("Se Actualizó el registro en la base de datos");
     }
+}
+
 }

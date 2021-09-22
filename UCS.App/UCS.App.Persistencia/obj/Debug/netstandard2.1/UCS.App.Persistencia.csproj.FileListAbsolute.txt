@@ -22,3 +22,15 @@ C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-
 C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csproj.CopyComplete
 C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.dll
 C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\Proyecto-primer-sprint-master\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.pdb
+C:\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csprojAssemblyReference.cache
+C:\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.AssemblyInfoInputs.cache
+C:\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.AssemblyInfo.cs
+C:\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.dll
+C:\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.pdb
+C:\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Persistencia.deps.json
+C:\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Persistencia.dll
+C:\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Persistencia.pdb
+C:\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Dominio.dll
+C:\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Dominio.pdb
+C:\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csproj.CopyComplete

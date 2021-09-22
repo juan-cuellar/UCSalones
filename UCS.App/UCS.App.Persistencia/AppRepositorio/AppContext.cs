@@ -12,7 +12,7 @@ namespace UCS.App.Persistencia
         public DbSet<Profesores> Profesores {get;set;}
         public DbSet<Salones> Salones {get;set;}
         public DbSet<Sedes> Sedes {get;set;}
-        public DbSet<SistemaIngresoPersonal> SitemaIngresoPersonal {get;set;}
+        public DbSet<SistemaIngresoPersonal> SistemaIngresoPersonal {get;set;}
         public DbSet<Universidad> Universidades {get;set;}
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -20,7 +20,7 @@ namespace UCS.App.Persistencia
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder
-                .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = UCSalones.Data");
+                .UseSqlServer(@"Data Source = (localdb)\MSSQLLocalDB; Initial Catalog = UCSalonesGrupo.Data");
             }
         }
     }

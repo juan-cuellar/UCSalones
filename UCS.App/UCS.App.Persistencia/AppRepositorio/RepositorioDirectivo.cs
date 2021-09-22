@@ -3,7 +3,7 @@ using UCS.App.Dominio;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace UCS.App.Persistencia
+namespace UCS.App.Persistencia.AppRepositorio
 
 {
     public class RepositorioDirectivo : IRepositorioDirectivo

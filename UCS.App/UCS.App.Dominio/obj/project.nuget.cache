@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "OOGM09FioMJinWZMk93nX7/oyT48EOBBHfoF6yvcC1okiKUE4Qa63rCxe9Q9gjmuWZcmkFeP/A2emjuj94htpw==",
+  "dgSpecHash": "pvhM60PdmXz3PFu59YrqC1HO6YEvPfO06CCQl3/CHLV438HlKEXdnvFw8hIZZ2hBzVM9aC7t3Iw3Sz6UAJG8eA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\Proyecto-primer-sprint-master\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
+  "projectFilePath": "C:\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\docentes\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\docentes\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
