@@ -22,24 +22,30 @@ namespace UCS.App.Consola
         {
             Console.WriteLine("Este es mi primer sprint");
             Console.WriteLine("\nOperaciones CRUD para Directivo:");
-            //AddDirectivo();
-            //ActualizarDirectivo();
+            AddDirectivo();
+            ActualizarDirectivo();
+            BuscarTodosLosDirectivos();
             
             Console.WriteLine("\nOperaciones CRUD para Salones:");
             AddSalones();
-            BuscarSalones(2);
+            BuscarSalones(1);
             ActualizarSalones();
+            BuscarTodosLosSalones();
             EliminarSalones(1);
 
             Console.WriteLine("\nOperaciones CRUD para Estudiante:");
             AddEstudiante();
             BuscarEstudiante(1);
             ActualizarEstudiante();
+            BuscarTodosLosEstudiantes();
             EliminarEstudiante(1);
 
             Console.WriteLine("\nOperaciones CRUD para Sistema Ingreso Personal:");
             AddSistemaIngresoPersonal();
             
+
+
+
         }
 
         //AddDirectivo
@@ -95,13 +101,13 @@ namespace UCS.App.Consola
         }
 
         //GetAllDirectivo
-          private static void BuscarDirectivo()
+          private static void BuscarTodosLosDirectivos()
         {
             IEnumerable<Directivo> directivos = _repoDirectivo.GetAllDirectivo();
-            
+            Console.WriteLine("Se buscaron todos los directivos de la base de datos:>> ");
             foreach (var directivo in directivos)
             {
-                Console.WriteLine(directivo.nombre);
+                Console.WriteLine("    Nombre de directivo:" +directivo.nombre);
             }
             
         }
@@ -116,7 +122,7 @@ namespace UCS.App.Consola
                cantidadActualPersonas = "18" 
             };
 
-            Console.WriteLine("Salon ingresado >> Salon numero: "+salones.numeroSalon+" Maximo Aforo: "+salones.maximoAforo);
+            Console.WriteLine("Salon ingresado >>:  Salon id: "+salones.id+", numero de salon: "+salones.numeroSalon+" Maximo Aforo: "+salones.maximoAforo);
             Salones salonesRetornado = _repoSalones.AddSalones(salones);
             if (salonesRetornado!=null)
             Console.WriteLine("Se realizo un nuevo registro en la base de datos:>> Salonid: "+salonesRetornado.id+", Numero de salon: "+salonesRetornado.numeroSalon);
@@ -155,10 +161,29 @@ namespace UCS.App.Consola
                
             };
             Salones salonesRetornado =_repoSalones.UpdateSalones(salones);                         
-            if (salonesRetornado!=null)
-                Console.WriteLine("Se sustituyo un salon en la base de datos");
+            if (salonesRetornado!=null){
+                Console.WriteLine("Se sustituyo un salon en la base de datos con id: " + salonesRetornado.id);
+            } else{
+                Console.WriteLine("Error al hacer update de salon en la base de datos");
+            }
         
         }
+
+
+        //GetAllSalones
+          private static void BuscarTodosLosSalones()
+        {
+            IEnumerable<Salones> todosLosSalones = _repoSalones.GetAllSalones();
+            Console.WriteLine("Se buscaron todos los salones de la base de datos:>> ");
+            foreach (var salones in todosLosSalones)
+            {
+                Console.WriteLine("    Salon id: " + salones.id +  ", numero de Salon: " +salones.numeroSalon+ ", cantidad actual de personas: "+ salones.cantidadActualPersonas+", maximo aforo: "+salones.maximoAforo);
+            }
+            Console.WriteLine("");
+            
+        }
+
+
         
         /*
         Estudiante
@@ -192,6 +217,7 @@ namespace UCS.App.Consola
             var estudiante = _repoEstudiante.GetEstudiante(idEstudiante);
             if(estudiante!=null){
                 Console.WriteLine("Se buscó un estudiante en la base de datos:>> Id estudiante: "+estudiante.id +" Nombre estudiante: "+estudiante.nombre+" Apellido Estudiante: "+estudiante.apellido);
+                Console.WriteLine("    Estudiante id: " + estudiante.id +  ", nombre:" +estudiante.nombre, ", apellidos: "+ estudiante.apellido+", identificacion: "+estudiante.identificacion+", edad: "+estudiante.edad+", estado covid: "+estudiante.EstadoCovid+", Carrera: "+estudiante.carrera+", semestre: "+estudiante.Semestre);
             }else{
                 Console.WriteLine("Error: Se buscó un estudiante en la base de datos y no se encontró resultado:>> id: "+idEstudiante);
             }
@@ -209,7 +235,7 @@ namespace UCS.App.Consola
         //UpdateEstudiante
         private static void ActualizarEstudiante()
         {
-            var Estudiante = new Estudiante 
+            var estudiante = new Estudiante 
             {
                 nombre = "francisco",
                 apellido = "fortuna",
@@ -220,10 +246,26 @@ namespace UCS.App.Consola
                 Semestre = "7"
                
             };
-            Estudiante EstudianteRetornado =_repoEstudiante.UpdateEstudiante(Estudiante);                         
-            if (EstudianteRetornado!=null)
+            Estudiante EstudianteRetornado =_repoEstudiante.UpdateEstudiante(estudiante);                         
+            if (EstudianteRetornado!=null){
                 Console.WriteLine("Se Actualizó un Estudiante en la base de datos");
-        
+                Console.WriteLine("    Estudiante id: " + EstudianteRetornado.id +  ", nombre:" +EstudianteRetornado.nombre, ", apellidos: "+ EstudianteRetornado.apellido+", identificacion: "+EstudianteRetornado.identificacion+", edad: "+EstudianteRetornado.edad+", estado covid: "+EstudianteRetornado.EstadoCovid+", Carrera: "+EstudianteRetornado.carrera+", semestre: "+EstudianteRetornado.Semestre);
+            } else{
+                Console.WriteLine("Error al hacer update de estudiante en la base de datos");
+            }
+        }
+
+        //GetAllEstudiante
+          private static void BuscarTodosLosEstudiantes()
+        {
+            IEnumerable<Estudiante> todosLosEstudiantes = _repoEstudiante.GetAllEstudiante();
+            Console.WriteLine("Se buscaron todos los estudiantes de la base de datos:>> ");
+            foreach (var estudiante in todosLosEstudiantes)
+            {
+                Console.WriteLine("    Estudiante id: " + estudiante.id +  ", nombre:" +estudiante.nombre, ", apellidos: "+ estudiante.apellido+", identificacion: "+estudiante.identificacion+", edad: "+estudiante.edad+", estado covid: "+estudiante.EstadoCovid+", Carrera: "+estudiante.carrera+", semestre: "+estudiante.Semestre);
+            }
+            Console.WriteLine("");
+            
         }
 
          //AddSistemaIngresoPersonal
