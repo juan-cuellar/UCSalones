@@ -34,3 +34,14 @@ C:\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App
 C:\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Dominio.dll
 C:\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Dominio.pdb
 C:\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csproj.CopyComplete
+C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Persistencia.deps.json
+C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Persistencia.dll
+C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Persistencia.pdb
+C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Dominio.dll
+C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Dominio.pdb
+C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csprojAssemblyReference.cache
+C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.AssemblyInfo.cs
+C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csproj.CopyComplete
+C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.dll
+C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.pdb

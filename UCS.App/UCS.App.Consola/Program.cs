@@ -21,6 +21,10 @@ namespace UCS.App.Consola
 private static IRepositorioSistemaIngresoPersonal _repoSistemaIngresoPersonal = new RepositorioSistemaIngresoPersonal(new Persistencia.AppContext());
         private static IRepositorioPersonalAseo _repoPersonalAseo = new RepositorioPersonalAseo(new Persistencia.AppContext());
 
+        private static IRepositorioProfesores _repoProfesores = new RepositorioProfesores(new Persistencia.AppContext());
+
+        private static IRepositorioSedes _repoSedes = new RepositorioSedes(new Persistencia.AppContext());
+
         static void Main(string[] args)
         {
             Console.WriteLine("Este es mi primer sprint");
@@ -53,8 +57,23 @@ private static IRepositorioSistemaIngresoPersonal _repoSistemaIngresoPersonal = 
             //AddPersonalAseo();
             //BuscarPersonalAseo(11);
             //ActualizarPersonalAseo();
-            BuscarTodosPersonalAseo();
+            //BuscarTodosPersonalAseo();
             //EliminarPersonalAseo(11);
+
+            Console.WriteLine("\nOperaciones CRUD para Profesores:");
+            AddProfesores();
+            //BuscarProfesor();
+            //EliminarProfesores();
+            //ActualizarProfesores();
+            //BuscarProfesores();
+
+            Console.WriteLine("\nOperaciones CRUD para Sedes:");
+            AddSedes();
+            //BuscarSede();
+            //EliminarSedes();
+            //ActualizarSedes();
+            //BuscarSedes();
+
 
         }
 
@@ -441,6 +460,124 @@ private static IRepositorioSistemaIngresoPersonal _repoSistemaIngresoPersonal = 
             Console.WriteLine("");
 
         }
+
+        /*
+
+        Profesores
+
+        */
+        //AddProfesores().
+        private static void AddProfesores()
+        {
+            var profesores = new Profesores
+            {
+                nombre = "Alberto",
+                apellido = "Manzano",
+                identificacion = 1001,
+                edad = 40,
+                EstadoCovid = EstadoCovid.covidNegativo,
+                departamento = "Ingeniería",
+                materia = "Sistemas"
+            };
+            Console.WriteLine("Nombre Profesor: " + profesores.nombre + ", Apellido = " + profesores.apellido);
+           Profesores profesores_retornado = _repoProfesores.AddProfesores(profesores);
+            Console.WriteLine("Se registró un profesor en la base de datos");
+        }
+
+        //GetProfesor
+        private static void BuscarProfesor(int idProfesores)
+        {
+            var profesores = _repoProfesores.GetProfesores(idProfesores);
+            Console.WriteLine(profesores.nombre+" "+ profesores.apellido+"\n Departamento: " + profesores.departamento);
+        }
+        //DeleteProfesores
+        private static void EliminarProfesores(int idProfesores)
+        {
+            _repoProfesores.DeleteProfesores(idProfesores);
+        }
+
+        //UpdateProfesores
+        private static void ActualizarProfesores(int idProfesores)
+        {
+            var profesores = new Profesores 
+            {
+                id = 1,
+                nombre = "Alberto",
+                apellido = "Manzano",
+                identificacion = 1001,
+                edad = 40,
+                EstadoCovid = EstadoCovid.covidNegativo,
+                departamento = "Ingeniería",
+                materia = "Sistemas"
+            };
+            _repoProfesores.UpdateProfesores(profesores);
+            Profesores profesores_retornado = _repoProfesores.AddProfesores(profesores);
+            if (profesores_retornado != null)
+                Console.WriteLine("Se actualizó un profesor en la base de datos");
+        }
+        //GetAllProfesores
+        private static void BuscarProfesores()
+        {
+            IEnumerable<Profesores> profesores = _repoProfesores.GetAllProfesores();
+            foreach (var profesor in profesores)
+            {
+                Console.WriteLine(profesor.nombre);
+            }
+        }
+
+
+        /*
+         Sedes
+        */
+        //AddSedes().
+        private static void AddSedes()
+        {
+            var sedes = new Sedes
+            {
+                nombreFacultad = NombreFacultad.ingenieria,
+                salonesDisponibles = 4
+            };
+            Console.WriteLine("Nombre de la Sede: " + sedes.nombreFacultad + ", Salones Disponibles = " + sedes.salonesDisponibles);
+           Sedes sedes_retornado = _repoSedes.AddSedes(sedes);
+            Console.WriteLine("Se registró Sede en la base de datos");
+        }
+
+        //GetSedes
+        private static void BuscarSede(int idSedes)
+        {
+            var sedes = _repoSedes.GetSedes(idSedes);
+            Console.WriteLine(sedes.nombreFacultad);
+        }
+        //DeleteSedes
+        private static void EliminarSedes(int idSedes)
+        {
+            _repoSedes.DeleteSedes(idSedes);
+        }
+
+        //UpdateSedes
+        private static void ActualizarSedes(int idSedes)
+        {
+            var sedes = new Sedes 
+            {
+                id = 1,
+                nombreFacultad = NombreFacultad.artesyhumanidades,
+                salonesDisponibles = 5
+            };
+            _repoSedes.UpdateSedes(sedes);
+            Sedes sedes_retornado = _repoSedes.AddSedes(sedes);
+            if (sedes_retornado != null)
+                Console.WriteLine("Se actualizó una Sede en la base de datos");
+        }
+        //GetAllSedes
+        private static void BuscarSedes()
+        {
+            IEnumerable<Sedes> sedes = _repoSedes.GetAllSedes();
+            foreach (var sede in sedes)
+            {
+                Console.WriteLine(sede.nombreFacultad);
+            }
+        }
+
     }
 
 }

@@ -25,3 +25,11 @@ C:\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Domi
 C:\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.csproj.CoreCompileInputs.cache
 C:\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.dll
 C:\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.pdb
+C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Dominio\bin\Debug\netstandard2.0\UCS.App.Dominio.deps.json
+C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Dominio\bin\Debug\netstandard2.0\UCS.App.Dominio.dll
+C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Dominio\bin\Debug\netstandard2.0\UCS.App.Dominio.pdb
+C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.csprojAssemblyReference.cache
+C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.AssemblyInfo.cs
+C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.dll
+C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.pdb
