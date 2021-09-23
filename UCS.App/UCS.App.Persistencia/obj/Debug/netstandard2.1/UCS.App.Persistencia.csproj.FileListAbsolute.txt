@@ -45,3 +45,15 @@ C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Persistencia\o
 C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csproj.CopyComplete
 C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.dll
 C:\Users\user\Desktop\UCSALONES23\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.pdb
+D:\Thomas\c3_desarrollo_software\proyectos\AsignacionSalones\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Persistencia.deps.json
+D:\Thomas\c3_desarrollo_software\proyectos\AsignacionSalones\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Persistencia.dll
+D:\Thomas\c3_desarrollo_software\proyectos\AsignacionSalones\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Persistencia.pdb
+D:\Thomas\c3_desarrollo_software\proyectos\AsignacionSalones\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Dominio.dll
+D:\Thomas\c3_desarrollo_software\proyectos\AsignacionSalones\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Dominio.pdb
+D:\Thomas\c3_desarrollo_software\proyectos\AsignacionSalones\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csprojAssemblyReference.cache
+D:\Thomas\c3_desarrollo_software\proyectos\AsignacionSalones\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.AssemblyInfoInputs.cache
+D:\Thomas\c3_desarrollo_software\proyectos\AsignacionSalones\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.AssemblyInfo.cs
+D:\Thomas\c3_desarrollo_software\proyectos\AsignacionSalones\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\Thomas\c3_desarrollo_software\proyectos\AsignacionSalones\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csproj.CopyComplete
+D:\Thomas\c3_desarrollo_software\proyectos\AsignacionSalones\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.dll
+D:\Thomas\c3_desarrollo_software\proyectos\AsignacionSalones\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.pdb

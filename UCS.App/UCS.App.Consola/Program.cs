@@ -18,62 +18,72 @@ namespace UCS.App.Consola
 
         private static IRepositorioEstudiante _repoEstudiante = new RepositorioEstudiante(new Persistencia.AppContext());
 
-private static IRepositorioSistemaIngresoPersonal _repoSistemaIngresoPersonal = new RepositorioSistemaIngresoPersonal(new Persistencia.AppContext());
+        private static IRepositorioSistemaIngresoPersonal _repoSistemaIngresoPersonal = new RepositorioSistemaIngresoPersonal(new Persistencia.AppContext());
         private static IRepositorioPersonalAseo _repoPersonalAseo = new RepositorioPersonalAseo(new Persistencia.AppContext());
 
         private static IRepositorioProfesores _repoProfesores = new RepositorioProfesores(new Persistencia.AppContext());
 
         private static IRepositorioSedes _repoSedes = new RepositorioSedes(new Persistencia.AppContext());
 
+        private static IRepositorioUniversidad _repoUniversidad = new RepositorioUniversidad(new Persistencia.AppContext());
+
         static void Main(string[] args)
         {
             Console.WriteLine("Este es mi primer sprint");
             Console.WriteLine("\nOperaciones CRUD para Directivo:");
-            //AddDirectivo();
-            //ActualizarDirectivo();
-            //BuscarTodosLosDirectivos();
+            AddDirectivo();
+            BuscarDirectivo(1);
+            ActualizarDirectivo();
+            BuscarTodosLosDirectivos();
+            EliminarDirectivo(1);
 
             Console.WriteLine("\nOperaciones CRUD para Salones:");
-            //AddSalones();
-            //BuscarSalones(1);
-            //ActualizarSalones();
-            //BuscarTodosLosSalones();
-            //EliminarSalones(1);
+            AddSalones();
+            BuscarSalones(1);
+            ActualizarSalones();
+            BuscarTodosLosSalones();
+            EliminarSalones(1);
 
             Console.WriteLine("\nOperaciones CRUD para Estudiante:");
-            //AddEstudiante();
-            //BuscarEstudiante(1);
-            //ActualizarEstudiante();
-            //BuscarTodosLosEstudiantes();
-            //EliminarEstudiante(1);
+            AddEstudiante();
+            BuscarEstudiante(1);
+            ActualizarEstudiante();
+            BuscarTodosLosEstudiantes();
+            EliminarEstudiante(1);
 
             Console.WriteLine("\nOperaciones CRUD para Sistema Ingreso Personal:");
-            //AddSistemaIngresoPersonal();
-            //BuscarSistemaIngresoPersonal(1);
-            //ActualizarSistemaIngresoPersonal();
-            //EliminarSistemaIngresoPersonal(2);
+            AddSistemaIngresoPersonal();
+            BuscarSistemaIngresoPersonal(1);
+            ActualizarSistemaIngresoPersonal();
+            EliminarSistemaIngresoPersonal(2);
 
             Console.WriteLine("\nOperaciones CRUD para Personal Aseo:");
-            //AddPersonalAseo();
-            //BuscarPersonalAseo(11);
-            //ActualizarPersonalAseo();
-            //BuscarTodosPersonalAseo();
-            //EliminarPersonalAseo(11);
+            AddPersonalAseo();
+            BuscarPersonalAseo(1);
+            ActualizarPersonalAseo();
+            BuscarTodosPersonalAseo();
+            EliminarPersonalAseo(11);
 
             Console.WriteLine("\nOperaciones CRUD para Profesores:");
             AddProfesores();
-            //BuscarProfesor();
-            //EliminarProfesores();
-            //ActualizarProfesores();
-            //BuscarProfesores();
+            BuscarProfesor(1);
+            ActualizarProfesores();
+            BuscarProfesores();
+            EliminarProfesores(1);
 
             Console.WriteLine("\nOperaciones CRUD para Sedes:");
             AddSedes();
-            //BuscarSede();
-            //EliminarSedes();
-            //ActualizarSedes();
-            //BuscarSedes();
+            BuscarSede(1);
+            ActualizarSedes();
+            BuscarSedes();
+            EliminarSedes(1);
 
+            Console.WriteLine("\nOperaciones CRUD para Universidad:");
+            AddUniversidad();
+            BuscarUniversidad(1);
+            ActualizarUniversidad();
+            BuscarUniversidades();
+            EliminarUniversidad(2);
 
         }
 
@@ -377,7 +387,7 @@ private static IRepositorioSistemaIngresoPersonal _repoSistemaIngresoPersonal = 
             if (SistemaIngresoPersonalretornado != null)
                 Console.WriteLine("Se Actualizó el registro en la base de datos");
         }
-        
+
         //AddPersonalAseo
         private static void AddPersonalAseo()
         {
@@ -388,7 +398,7 @@ private static IRepositorioSistemaIngresoPersonal _repoSistemaIngresoPersonal = 
                 identificacion = 1313,
                 edad = 29,
                 EstadoCovid = EstadoCovid.covidNegativo,
-                turnoServicio =  DateTime.ParseExact("12/06/2014; 06:00", "dd/MM/yyyy; hh:mm", CultureInfo.InvariantCulture),
+                turnoServicio = DateTime.ParseExact("12/06/2014; 06:00", "dd/MM/yyyy; hh:mm", CultureInfo.InvariantCulture),
             };
 
             Console.WriteLine("Nombre Personal Aseo ingresado >> " + PersonalAseo.nombre + "Turno " + PersonalAseo.turnoServicio);
@@ -439,8 +449,8 @@ private static IRepositorioSistemaIngresoPersonal _repoSistemaIngresoPersonal = 
                 identificacion = 1212,
                 edad = 38,
                 EstadoCovid = EstadoCovid.covidPositivo,
-                turnoServicio =  DateTime.ParseExact("03/11/2015; 11:00", "dd/MM/yyyy; hh:mm", CultureInfo.InvariantCulture),
-   
+                turnoServicio = DateTime.ParseExact("03/11/2015; 11:00", "dd/MM/yyyy; hh:mm", CultureInfo.InvariantCulture),
+
             };
 
             PersonalAseo PersonalAseoretornado = _repoPersonalAseo.UpdatePersonalAseo(PersonalAseo);
@@ -480,7 +490,7 @@ private static IRepositorioSistemaIngresoPersonal _repoSistemaIngresoPersonal = 
                 materia = "Sistemas"
             };
             Console.WriteLine("Nombre Profesor: " + profesores.nombre + ", Apellido = " + profesores.apellido);
-           Profesores profesores_retornado = _repoProfesores.AddProfesores(profesores);
+            Profesores profesores_retornado = _repoProfesores.AddProfesores(profesores);
             Console.WriteLine("Se registró un profesor en la base de datos");
         }
 
@@ -488,7 +498,14 @@ private static IRepositorioSistemaIngresoPersonal _repoSistemaIngresoPersonal = 
         private static void BuscarProfesor(int idProfesores)
         {
             var profesores = _repoProfesores.GetProfesores(idProfesores);
-            Console.WriteLine(profesores.nombre+" "+ profesores.apellido+"\n Departamento: " + profesores.departamento);
+            if (profesores != null)
+            {
+                Console.WriteLine(profesores.nombre + " " + profesores.apellido + "\n Departamento: " + profesores.departamento);
+            }
+            else
+            {
+                Console.WriteLine("Error: Se ha intentado buscar un profesor con id: " + idProfesores);
+            }
         }
         //DeleteProfesores
         private static void EliminarProfesores(int idProfesores)
@@ -497,9 +514,9 @@ private static IRepositorioSistemaIngresoPersonal _repoSistemaIngresoPersonal = 
         }
 
         //UpdateProfesores
-        private static void ActualizarProfesores(int idProfesores)
+        private static void ActualizarProfesores()
         {
-            var profesores = new Profesores 
+            var profesores = new Profesores
             {
                 id = 1,
                 nombre = "Alberto",
@@ -510,10 +527,15 @@ private static IRepositorioSistemaIngresoPersonal _repoSistemaIngresoPersonal = 
                 departamento = "Ingeniería",
                 materia = "Sistemas"
             };
-            _repoProfesores.UpdateProfesores(profesores);
-            Profesores profesores_retornado = _repoProfesores.AddProfesores(profesores);
+            Profesores profesores_retornado = _repoProfesores.UpdateProfesores(profesores);
             if (profesores_retornado != null)
+            {
                 Console.WriteLine("Se actualizó un profesor en la base de datos");
+            }
+            else
+            {
+                Console.WriteLine("Error: Se intentó actualizar un profesor con id: " + profesores.id);
+            }
         }
         //GetAllProfesores
         private static void BuscarProfesores()
@@ -538,7 +560,7 @@ private static IRepositorioSistemaIngresoPersonal _repoSistemaIngresoPersonal = 
                 salonesDisponibles = 4
             };
             Console.WriteLine("Nombre de la Sede: " + sedes.nombreFacultad + ", Salones Disponibles = " + sedes.salonesDisponibles);
-           Sedes sedes_retornado = _repoSedes.AddSedes(sedes);
+            Sedes sedes_retornado = _repoSedes.AddSedes(sedes);
             Console.WriteLine("Se registró Sede en la base de datos");
         }
 
@@ -555,18 +577,24 @@ private static IRepositorioSistemaIngresoPersonal _repoSistemaIngresoPersonal = 
         }
 
         //UpdateSedes
-        private static void ActualizarSedes(int idSedes)
+        private static void ActualizarSedes()
         {
-            var sedes = new Sedes 
+            var sedes = new Sedes
             {
                 id = 1,
                 nombreFacultad = NombreFacultad.artesyhumanidades,
                 salonesDisponibles = 5
             };
-            _repoSedes.UpdateSedes(sedes);
-            Sedes sedes_retornado = _repoSedes.AddSedes(sedes);
+            Sedes sedes_retornado = _repoSedes.UpdateSedes(sedes);
             if (sedes_retornado != null)
+            {
                 Console.WriteLine("Se actualizó una Sede en la base de datos");
+            }
+            else
+            {
+                Console.WriteLine("Error: No se pudo actualizar la sede con id: " + sedes.id);
+            }
+
         }
         //GetAllSedes
         private static void BuscarSedes()
@@ -578,6 +606,80 @@ private static IRepositorioSistemaIngresoPersonal _repoSistemaIngresoPersonal = 
             }
         }
 
+        //AddUniversidad
+        private static void AddUniversidad()
+        {
+            var Universidad = new Universidad
+            {
+                nit = 123456789,
+                direccion = "Avenida Siempre Viva 123 - Sprinfield"
+
+
+            };
+
+            Console.WriteLine("Universidad ingresado >>:  Universidad id: " + Universidad.id + ", Nit: " + Universidad.nit + ", Dirección: " + Universidad.direccion);
+            Universidad UniversidadRetornado = _repoUniversidad.AddUniversidad(Universidad);
+            if (UniversidadRetornado != null)
+                Console.WriteLine("Se realizo un nuevo registro en la base de datos:>> UniversidadId: " + UniversidadRetornado.id + ", Universidad Nit: " + UniversidadRetornado.nit);
+        }
+
+
+        //BuscarUniversidad
+        private static void BuscarUniversidad(int idUniversidad)
+        {
+            var Universidad = _repoUniversidad.GetUniversidad(idUniversidad);
+            if (Universidad != null)
+            {
+                Console.WriteLine("Se buscó una universidad en la base de datos:>> Universidad Nit: " + Universidad.nit);
+            }
+            else
+            {
+                Console.WriteLine("Error: Se buscó una universidad en la base de datos y no se encontró resultado:>> id: " + idUniversidad);
+            }
+        }
+
+        private static void EliminarUniversidad(int idUniversidad)
+        {
+            _repoUniversidad.DeleteUniversidad(idUniversidad);
+            Console.WriteLine("Se eliminó un registro de la base de datos con id: " + idUniversidad);
+        }
+
+
+        //UpdateUniversidad
+        private static void ActualizarUniversidad()
+        {
+            var Universidad = new Universidad
+            {
+                id = 1,
+                nit = 999999999,
+                direccion = "Avenida Siempre Viva 000 - Sprinfield"
+
+            };
+            Universidad UniversidadRetornado = _repoUniversidad.UpdateUniversidad(Universidad);
+            if (UniversidadRetornado != null)
+            {
+                Console.WriteLine("Se sustituyo una Universidad en la base de datos con id: " + UniversidadRetornado.id);
+            }
+            else
+            {
+                Console.WriteLine("Error al hacer update de Universidad en la base de datos");
+            }
+
+        }
+
+
+        //GetAllUniversidad
+        private static void BuscarUniversidades()
+        {
+            IEnumerable<Universidad> Universidades = _repoUniversidad.GetAllUniversidad();
+            Console.WriteLine("Se buscaron todos los Universidad de la base de datos:>> ");
+            foreach (var Universidad in Universidades)
+            {
+                Console.WriteLine("    Universidad id: " + Universidad.id + ", Universidad Nit: " + Universidad.nit + ", Universidad Dirección:" + Universidad.direccion);
+            }
+            Console.WriteLine("");
+
+        }
     }
 
 }

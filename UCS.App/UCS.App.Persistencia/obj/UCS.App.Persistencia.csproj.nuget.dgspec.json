@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\UCSALONES23\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj": {}
+    "D:\\Thomas\\c3_desarrollo_software\\proyectos\\AsignacionSalones\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\UCSALONES23\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
+    "D:\\Thomas\\c3_desarrollo_software\\proyectos\\AsignacionSalones\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\UCSALONES23\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
+        "projectUniqueName": "D:\\Thomas\\c3_desarrollo_software\\proyectos\\AsignacionSalones\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
         "projectName": "UCS.App.Dominio",
-        "projectPath": "C:\\Users\\user\\Desktop\\UCSALONES23\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\UCSALONES23\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\obj\\",
+        "projectPath": "D:\\Thomas\\c3_desarrollo_software\\proyectos\\AsignacionSalones\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\thomy\\.nuget\\packages\\",
+        "outputPath": "D:\\Thomas\\c3_desarrollo_software\\proyectos\\AsignacionSalones\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\thomy\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -53,21 +53,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.119\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\UCSALONES23\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj": {
+    "D:\\Thomas\\c3_desarrollo_software\\proyectos\\AsignacionSalones\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\UCSALONES23\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj",
+        "projectUniqueName": "D:\\Thomas\\c3_desarrollo_software\\proyectos\\AsignacionSalones\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj",
         "projectName": "UCS.App.Persistencia",
-        "projectPath": "C:\\Users\\user\\Desktop\\UCSALONES23\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\UCSALONES23\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\obj\\",
+        "projectPath": "D:\\Thomas\\c3_desarrollo_software\\proyectos\\AsignacionSalones\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\thomy\\.nuget\\packages\\",
+        "outputPath": "D:\\Thomas\\c3_desarrollo_software\\proyectos\\AsignacionSalones\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\thomy\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -78,8 +78,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\UCSALONES23\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\UCSALONES23\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj"
+              "D:\\Thomas\\c3_desarrollo_software\\proyectos\\AsignacionSalones\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
+                "projectPath": "D:\\Thomas\\c3_desarrollo_software\\proyectos\\AsignacionSalones\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj"
               }
             }
           }
@@ -129,7 +129,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.119\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
         }
       }
     }
