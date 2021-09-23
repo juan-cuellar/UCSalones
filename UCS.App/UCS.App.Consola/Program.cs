@@ -18,7 +18,8 @@ namespace UCS.App.Consola
 
         private static IRepositorioEstudiante _repoEstudiante = new RepositorioEstudiante(new Persistencia.AppContext());
 
-        private static IRepositorioSistemaIngresoPersonal _repoSistemaIngresoPersonal = new RepositorioSistemaIngresoPersonal(new Persistencia.AppContext());
+private static IRepositorioSistemaIngresoPersonal _repoSistemaIngresoPersonal = new RepositorioSistemaIngresoPersonal(new Persistencia.AppContext());
+        private static IRepositorioPersonalAseo _repoPersonalAseo = new RepositorioPersonalAseo(new Persistencia.AppContext());
 
         static void Main(string[] args)
         {
@@ -38,7 +39,7 @@ namespace UCS.App.Consola
             Console.WriteLine("\nOperaciones CRUD para Estudiante:");
             //AddEstudiante();
             //BuscarEstudiante(1);
-            ActualizarEstudiante();
+            //ActualizarEstudiante();
             //BuscarTodosLosEstudiantes();
             //EliminarEstudiante(1);
 
@@ -46,7 +47,14 @@ namespace UCS.App.Consola
             //AddSistemaIngresoPersonal();
             //BuscarSistemaIngresoPersonal(1);
             //ActualizarSistemaIngresoPersonal();
-            EliminarSistemaIngresoPersonal(2);
+            //EliminarSistemaIngresoPersonal(2);
+
+            Console.WriteLine("\nOperaciones CRUD para Personal Aseo:");
+            //AddPersonalAseo();
+            //BuscarPersonalAseo(11);
+            //ActualizarPersonalAseo();
+            BuscarTodosPersonalAseo();
+            //EliminarPersonalAseo(11);
 
         }
 
@@ -349,6 +357,89 @@ namespace UCS.App.Consola
             SistemaIngresoPersonal SistemaIngresoPersonalretornado = _repoSistemaIngresoPersonal.UpdateSistemaIngresoPersonal(SistemaIngresoPersonal);
             if (SistemaIngresoPersonalretornado != null)
                 Console.WriteLine("Se Actualizó el registro en la base de datos");
+        }
+        
+        //AddPersonalAseo
+        private static void AddPersonalAseo()
+        {
+            var PersonalAseo = new PersonalAseo
+            {
+                nombre = "Yessica",
+                apellido = "Muñoz",
+                identificacion = 1313,
+                edad = 29,
+                EstadoCovid = EstadoCovid.covidNegativo,
+                turnoServicio =  DateTime.ParseExact("12/06/2014; 06:00", "dd/MM/yyyy; hh:mm", CultureInfo.InvariantCulture),
+            };
+
+            Console.WriteLine("Nombre Personal Aseo ingresado >> " + PersonalAseo.nombre + "Turno " + PersonalAseo.turnoServicio);
+            PersonalAseo PersonalAseoRetornado = _repoPersonalAseo.AddPersonalAseo(PersonalAseo);
+            if (PersonalAseoRetornado != null)
+            {
+                Console.WriteLine("Se realizo una adicion de personal de aseo en la base de datos:>>  " + PersonalAseoRetornado.nombre + ", Turno Personal: " + PersonalAseoRetornado.turnoServicio);
+            }
+            else
+            {
+                Console.WriteLine("Se presento un error en la adicion: AddPersonalAseo");
+            }
+
+        }
+
+
+        //BuscarPersonalAseo
+        private static void BuscarPersonalAseo(int idPersonalAseo)
+        {
+            var PersonalAseo = _repoPersonalAseo.GetPersonalAseo(idPersonalAseo);
+            if (PersonalAseo != null)
+            {
+                Console.WriteLine("Se buscó un PersonalAseo en la base de datos:>> Id PersonalAseo: " + PersonalAseo.id + " Nombre PersonalAseo: " + PersonalAseo.nombre + " apellido Personal Aseo " + PersonalAseo.apellido);
+            }
+            else
+            {
+                Console.WriteLine("Error: Se buscó un PersonalAseo en la base de datos y no se encontró resultado:>> id: " + idPersonalAseo);
+            }
+
+        }
+
+        //DeletePersonalAseo
+        private static void EliminarPersonalAseo(int idPersonalAseo)
+        {
+            _repoPersonalAseo.DeletePersonalAseo(idPersonalAseo);
+            Console.WriteLine("Se eliminó un registro de la base de datos: >> Personal de aseo con id " + idPersonalAseo);
+        }
+
+
+        //UpdatePersonalAseo
+        private static void ActualizarPersonalAseo()
+        {
+            var PersonalAseo = new PersonalAseo
+            {
+                id = 11,
+                nombre = "Silvio",
+                apellido = "Marin",
+                identificacion = 1212,
+                edad = 38,
+                EstadoCovid = EstadoCovid.covidPositivo,
+                turnoServicio =  DateTime.ParseExact("03/11/2015; 11:00", "dd/MM/yyyy; hh:mm", CultureInfo.InvariantCulture),
+   
+            };
+
+            PersonalAseo PersonalAseoretornado = _repoPersonalAseo.UpdatePersonalAseo(PersonalAseo);
+            if (PersonalAseoretornado != null)
+                Console.WriteLine("Se Actualizó el registro en la base de datos");
+        }
+
+        //GetAllPersonalAseo
+        private static void BuscarTodosPersonalAseo()
+        {
+            IEnumerable<PersonalAseo> todosLosPersonalAseo = _repoPersonalAseo.GetAllPersonalAseo();
+            Console.WriteLine("Se buscaron todos los PersonalAseo de la base de datos:>> ");
+            foreach (var PersonalAseo in todosLosPersonalAseo)
+            {
+                Console.WriteLine("    Id: " + PersonalAseo.id + ", nombre: " + PersonalAseo.nombre + ", Apellido: " + PersonalAseo.apellido + ", Turno" + PersonalAseo.turnoServicio);
+            }
+            Console.WriteLine("");
+
         }
     }
 
