@@ -42,3 +42,12 @@ D:\Thomas\c3_desarrollo_software\proyectos\AsignacionSalones\neuromante-1984\UCS
 D:\Thomas\c3_desarrollo_software\proyectos\AsignacionSalones\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.csproj.CoreCompileInputs.cache
 D:\Thomas\c3_desarrollo_software\proyectos\AsignacionSalones\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.dll
 D:\Thomas\c3_desarrollo_software\proyectos\AsignacionSalones\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.pdb
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\neuromante\neuromante-1984\UCS.App\UCS.App.Dominio\bin\Debug\netstandard2.0\UCS.App.Dominio.deps.json
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\neuromante\neuromante-1984\UCS.App\UCS.App.Dominio\bin\Debug\netstandard2.0\UCS.App.Dominio.dll
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\neuromante\neuromante-1984\UCS.App\UCS.App.Dominio\bin\Debug\netstandard2.0\UCS.App.Dominio.pdb
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\neuromante\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.csprojAssemblyReference.cache
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\neuromante\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\neuromante\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.AssemblyInfo.cs
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\neuromante\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\neuromante\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.dll
+C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\neuromante\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.pdb

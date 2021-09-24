@@ -29,7 +29,7 @@ namespace UCS.App.Consola
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Este es mi primer sprint");
+            Console.WriteLine("Este es mi primer sprint\n");
             Console.WriteLine("\nOperaciones CRUD para Directivo:");
             AddDirectivo();
             BuscarDirectivo(1);
@@ -102,15 +102,22 @@ namespace UCS.App.Consola
 
             Console.WriteLine(directivo.nombre + "\n" + directivo.apellido + "\n Se desempeña en = " + directivo.unidadDesempeña);
             Directivo directivoretornado = _repoDirectivo.AddDirectivo(directivo);
-            if (directivoretornado != null)
-                Console.WriteLine("Se realizo un nuevo registro en la base de datos:>>" + directivoretornado.id + directivoretornado.EstadoCovid);
+            if (directivoretornado != null){
+                Console.WriteLine("Se realizo un nuevo registro en la base de datos:>> ID directivo: " + directivoretornado.id + ", estado covid: "+directivoretornado.EstadoCovid);
+            }else {
+                Console.WriteLine("Error: No se pudo agregar el directivo: "+directivo.nombre);
+            }
         }
 
         //BuscarDirectivo
         private static void BuscarDirectivo(int idDirectivo)
         {
             var directivo = _repoDirectivo.GetDirectivo(idDirectivo);
-            Console.WriteLine(directivo.nombre + " " + directivo.apellido + "\n Unidad: " + directivo.unidadDesempeña);
+            if(directivo!=null){
+                Console.WriteLine(directivo.nombre + " " + directivo.apellido + "\n Unidad: " + directivo.unidadDesempeña);
+            }else{
+                Console.WriteLine("Error: Se ha intentado buscar un directivo con id: "+idDirectivo);
+            }
         }
 
         //DeleteDirectivo
@@ -568,7 +575,11 @@ namespace UCS.App.Consola
         private static void BuscarSede(int idSedes)
         {
             var sedes = _repoSedes.GetSedes(idSedes);
-            Console.WriteLine(sedes.nombreFacultad);
+            if(sedes!=null){
+                Console.WriteLine("Se ha buscado una sede con id:"+ sedes.id + ", nombre facultad: " +sedes.nombreFacultad);
+            }else{
+                Console.WriteLine("Error: se ha intentado buscar sede con id: "+idSedes);
+            }
         }
         //DeleteSedes
         private static void EliminarSedes(int idSedes)
