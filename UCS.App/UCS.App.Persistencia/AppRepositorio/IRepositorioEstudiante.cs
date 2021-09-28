@@ -16,5 +16,7 @@ namespace UCS.App.Persistencia.AppRepositorio
         void DeleteEstudiante(int idEstudiante);
         //GetEstudiante
         Estudiante GetEstudiante(int idEstudiante);
+
+        Estudiante GetEstudianteId(int idEstudiante);
     }
 }

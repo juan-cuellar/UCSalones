@@ -57,6 +57,11 @@ namespace UCS.App.Persistencia.AppRepositorio
             }
             return estudianteEncontrado;
         }
+
+         public Estudiante GetEstudianteId(int idEstudiante)
+        {
+            return _appContext.Estudiantes.SingleOrDefault(p=>p.id==idEstudiante);
+        }
     }
 
 }

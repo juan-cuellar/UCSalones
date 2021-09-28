@@ -180,19 +180,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\docentes\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\neuromante\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
+      "projectUniqueName": "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
       "projectName": "UCS.App.Dominio",
-      "projectPath": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\neuromante\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\Modulo 03\\neuromante\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\obj\\",
+      "projectPath": "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\docentes\\.nuget\\packages\\",
+      "outputPath": "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\docentes\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

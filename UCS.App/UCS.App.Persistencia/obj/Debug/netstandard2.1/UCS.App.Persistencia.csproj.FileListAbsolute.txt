@@ -69,3 +69,15 @@ C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\neuromante\neuro
 C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\neuromante\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csproj.CopyComplete
 C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\neuromante\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.dll
 C:\Users\admin\Downloads\Misión TIC 2022\C3\DS-C3-23\Modulo 03\neuromante\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.pdb
+C:\ProyectoR\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Persistencia.deps.json
+C:\ProyectoR\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Persistencia.dll
+C:\ProyectoR\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Persistencia.pdb
+C:\ProyectoR\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Dominio.dll
+C:\ProyectoR\neuromante-1984\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Dominio.pdb
+C:\ProyectoR\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csprojAssemblyReference.cache
+C:\ProyectoR\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.AssemblyInfoInputs.cache
+C:\ProyectoR\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.AssemblyInfo.cs
+C:\ProyectoR\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\ProyectoR\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csproj.CopyComplete
+C:\ProyectoR\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.dll
+C:\ProyectoR\neuromante-1984\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.pdb

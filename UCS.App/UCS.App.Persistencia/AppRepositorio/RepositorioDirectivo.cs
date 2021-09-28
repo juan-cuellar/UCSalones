@@ -59,5 +59,10 @@ namespace UCS.App.Persistencia.AppRepositorio
         {
             return _appContext.Directivos;
         }
+
+         public Directivo GetDirectivoId(int idDirectivo)
+        {
+            return _appContext.Directivos.SingleOrDefault(p=>p.id==idDirectivo);
+        }
     }
 }

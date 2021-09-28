@@ -16,5 +16,7 @@ namespace UCS.App.Persistencia
         void DeleteDirectivo(int idDirectivo);
         //GetDirectivo
         Directivo GetDirectivo(int idDirectivo);
+        //GetDirectivoId
+        Directivo GetDirectivoId(int idDirectivo);
     }
 }
