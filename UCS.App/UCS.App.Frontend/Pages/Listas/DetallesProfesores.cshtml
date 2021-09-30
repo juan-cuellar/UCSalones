@@ -1,0 +1,20 @@
+﻿@page
+@model UCS.App.Frontend.Pages.DetallesProfesoresModel
+@{
+}
+<h1>Detalles Profesores</h1>
+<table class="table">
+
+    <tr><td>Nombre:</td><td>@Model.Profesores.nombre</td></tr>
+    <tr><td>Apellido:</td> <td>@Model.Profesores.apellido</td></tr>
+    <tr><td>Identificación:</td> <td>@Model.Profesores.identificacion</td></tr>
+    <tr><td>Edad:</td> <td>@Model.Profesores.edad</td><tr></tr>
+    <tr><td>Estado Covid:</td> <td>@Model.Profesores.EstadoCovid</td></tr>
+    <tr><td>Departamento:</td> <td>@Model.Profesores.departamento</td></tr>
+    <tr><td>Materia:</td> <td>@Model.Profesores.materia</td></tr>
+
+</table>
+
+<a class="btn btn-primary table-btn" asp-page="./Personas">
+                            Lista Personas
+                        </a>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "peRaORW8h3KdbMdNpyUHoPwSKkDrDETsBvYz0hf4M6IP7p6zPR+WjC4/m/z2ku6BHHzRnsljvp8/6T9v9u7hOw==",
+  "dgSpecHash": "6reK8aiAgy5k0D1o0jlgNjtfJL8WbLWZV6dC/djmJrEJfNUivj3ozy/wNS52yat5h+Fc3NokChzMVk9/5/lj4g==",
   "success": true,
-  "projectFilePath": "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\docentes\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\docentes\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

@@ -60,3 +60,12 @@ C:\ProyectoR\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UC
 C:\ProyectoR\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.csproj.CoreCompileInputs.cache
 C:\ProyectoR\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.dll
 C:\ProyectoR\neuromante-1984\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.pdb
+C:\Users\docentes\Documents\misionTIC\ciclo 3\desarrollo software\semana 5\ProyectoSalonesSegundoSprint\UCS.App\UCS.App.Dominio\bin\Debug\netstandard2.0\UCS.App.Dominio.deps.json
+C:\Users\docentes\Documents\misionTIC\ciclo 3\desarrollo software\semana 5\ProyectoSalonesSegundoSprint\UCS.App\UCS.App.Dominio\bin\Debug\netstandard2.0\UCS.App.Dominio.dll
+C:\Users\docentes\Documents\misionTIC\ciclo 3\desarrollo software\semana 5\ProyectoSalonesSegundoSprint\UCS.App\UCS.App.Dominio\bin\Debug\netstandard2.0\UCS.App.Dominio.pdb
+C:\Users\docentes\Documents\misionTIC\ciclo 3\desarrollo software\semana 5\ProyectoSalonesSegundoSprint\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.csprojAssemblyReference.cache
+C:\Users\docentes\Documents\misionTIC\ciclo 3\desarrollo software\semana 5\ProyectoSalonesSegundoSprint\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\docentes\Documents\misionTIC\ciclo 3\desarrollo software\semana 5\ProyectoSalonesSegundoSprint\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.AssemblyInfo.cs
+C:\Users\docentes\Documents\misionTIC\ciclo 3\desarrollo software\semana 5\ProyectoSalonesSegundoSprint\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\docentes\Documents\misionTIC\ciclo 3\desarrollo software\semana 5\ProyectoSalonesSegundoSprint\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.dll
+C:\Users\docentes\Documents\misionTIC\ciclo 3\desarrollo software\semana 5\ProyectoSalonesSegundoSprint\UCS.App\UCS.App.Dominio\obj\Debug\netstandard2.0\UCS.App.Dominio.pdb

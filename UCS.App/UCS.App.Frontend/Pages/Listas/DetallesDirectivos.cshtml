@@ -2,11 +2,18 @@
 @model UCS.App.Frontend.Pages.DetallesDirectivosModel
 @{
 }
+<h1>Detalles Directivos</h1>
+<table class="table">
 
-<h1>@Model.Directivo.nombre</h1>
-<h1>@Model.Directivo.apellido</h1>
-<h1>@Model.Directivo.identificacion</h1>
-<h1>@Model.Directivo.edad</h1>
-<h1>@Model.Directivo.EstadoCovid</h1>
-<h1>@Model.Directivo.unidadDesempeña</h1>
-<a class="nav-link text-dark" asp-area="" asp-page="./Personas">Lista de Personas</a>
+    <tr><td>Nombre:</td><td>@Model.Directivo.nombre</td></tr>
+    <tr><td>Apellido:</td> <td>@Model.Directivo.apellido</td></tr>
+    <tr><td>Identificación:</td> <td>@Model.Directivo.identificacion</td></tr>
+    <tr><td>Edad:</td> <td>@Model.Directivo.edad</td><tr></tr>
+    <tr><td>Estado Covid:</td> <td>@Model.Directivo.EstadoCovid</td></tr>
+    <tr><td>Unidad Desempeña</td> <td>@Model.Directivo.unidadDesempeña</td></tr>
+
+</table>
+
+<a class="btn btn-primary table-btn" asp-page="./Personas">
+                            Lista Personas
+                        </a>

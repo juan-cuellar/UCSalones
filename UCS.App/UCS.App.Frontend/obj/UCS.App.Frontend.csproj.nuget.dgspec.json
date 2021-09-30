@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\UCS.App.Frontend.csproj": {}
+    "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Frontend\\UCS.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
+    "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
         "projectName": "UCS.App.Dominio",
-        "projectPath": "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
+        "projectPath": "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\docentes\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\obj\\",
+        "outputPath": "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\docentes\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\UCS.App.Frontend.csproj": {
+    "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Frontend\\UCS.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\UCS.App.Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Frontend\\UCS.App.Frontend.csproj",
         "projectName": "UCS.App.Frontend",
-        "projectPath": "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\UCS.App.Frontend.csproj",
+        "projectPath": "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Frontend\\UCS.App.Frontend.csproj",
         "packagesPath": "C:\\Users\\docentes\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\obj\\",
+        "outputPath": "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\docentes\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -78,11 +78,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
-                "projectPath": "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj"
+              "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj"
               },
-              "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj": {
-                "projectPath": "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj"
+              "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj": {
+                "projectPath": "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj"
               }
             }
           }
@@ -117,14 +117,14 @@
         }
       }
     },
-    "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj": {
+    "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj",
         "projectName": "UCS.App.Persistencia",
-        "projectPath": "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj",
+        "projectPath": "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\docentes\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\obj\\",
+        "outputPath": "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\docentes\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -138,8 +138,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
-                "projectPath": "C:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj"
+              "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj"
               }
             }
           }

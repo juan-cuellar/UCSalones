@@ -59,5 +59,11 @@ namespace UCS.App.Persistencia
         {
             return _appContext.Profesores;
         } 
+
+        public Profesores GetProfesoresId(int idProfesores)
+        {
+            return _appContext.Profesores.SingleOrDefault(p=>p.id==idProfesores);
+        }
+        
     }
 }

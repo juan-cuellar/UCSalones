@@ -16,5 +16,7 @@ namespace UCS.App.Persistencia
         void DeleteProfesores(int idProfesores);
         //GetProfesores
         Profesores GetProfesores(int idProfesores);
+        //GetProfesoresId
+        Profesores GetProfesoresId(int idProfesores);
     }
 }
