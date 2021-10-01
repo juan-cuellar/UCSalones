@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\UCS.App.Frontend.csproj",
+  "FilePath": "c:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Frontend\\UCS.App.Frontend.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14402,53 +14402,63 @@
   "RootNamespace": "UCS.App.Frontend",
   "Documents": [
     {
-      "FilePath": "c:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Frontend\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\Pages\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Frontend\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\Pages\\Listas\\Personas.cshtml",
-      "TargetPath": "Pages\\Listas\\Personas.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\Pages\\Listas\\DetallesDirectivos.cshtml",
+      "FilePath": "c:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Frontend\\Pages\\Listas\\DetallesDirectivos.cshtml",
       "TargetPath": "Pages\\Listas\\DetallesDirectivos.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
+      "FilePath": "c:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Frontend\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Frontend\\Pages\\Listas\\DetallesProfesores.cshtml",
+      "TargetPath": "Pages\\Listas\\DetallesProfesores.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\Pages\\Listas\\DetallesEstudiantes.cshtml",
+      "FilePath": "c:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Frontend\\Pages\\Listas\\DetallesEstudiantes.cshtml",
       "TargetPath": "Pages\\Listas\\DetallesEstudiantes.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\ProyectoR\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\Pages\\Error.cshtml",
+      "FilePath": "c:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Frontend\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Frontend\\Pages\\Listas\\DetallesPersonalAseo.cshtml",
+      "TargetPath": "Pages\\Listas\\DetallesPersonalAseo.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Frontend\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Frontend\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Frontend\\Pages\\Listas\\Personas.cshtml",
+      "TargetPath": "Pages\\Listas\\Personas.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 5\\ProyectoSalonesSegundoSprint\\UCS.App\\UCS.App.Frontend\\Pages\\Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
     }
   ],
