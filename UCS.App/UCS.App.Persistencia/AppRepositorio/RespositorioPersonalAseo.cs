@@ -56,6 +56,10 @@ namespace UCS.App.Persistencia.AppRepositorio
             }
             return PersonalAseoEncontrado;
         }
+        public PersonalAseo GetPersonalAseoId(int idPersonalAseo)
+        {
+            return _appContext.PersonaldeAseo.SingleOrDefault(p=>p.id==idPersonalAseo);
+        }
         
     }
 

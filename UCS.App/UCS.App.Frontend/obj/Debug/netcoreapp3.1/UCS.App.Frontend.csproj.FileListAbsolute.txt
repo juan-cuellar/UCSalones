@@ -167,3 +167,4 @@ C:\Users\docentes\Documents\misionTIC\ciclo 3\desarrollo software\semana 5\Proye
 C:\Users\docentes\Documents\misionTIC\ciclo 3\desarrollo software\semana 5\ProyectoSalonesSegundoSprint\UCS.App\UCS.App.Frontend\obj\Debug\netcoreapp3.1\staticwebassets\UCS.App.Frontend.StaticWebAssets.xml
 C:\Users\docentes\Documents\misionTIC\ciclo 3\desarrollo software\semana 5\ProyectoSalonesSegundoSprint\UCS.App\UCS.App.Frontend\obj\Debug\netcoreapp3.1\UCS.App.Frontend.genruntimeconfig.cache
 C:\Users\docentes\Documents\misionTIC\ciclo 3\desarrollo software\semana 5\ProyectoSalonesSegundoSprint\UCS.App\UCS.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\DetallesProfesores.cshtml.g.cs
+C:\Users\docentes\Documents\misionTIC\ciclo 3\desarrollo software\semana 5\ProyectoSalonesSegundoSprint\UCS.App\UCS.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Listas\DetallesPersonalAseo.cshtml.g.cs

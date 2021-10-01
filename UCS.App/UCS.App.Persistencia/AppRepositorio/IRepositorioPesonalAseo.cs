@@ -16,5 +16,7 @@ namespace UCS.App.Persistencia.AppRepositorio
         void DeletePersonalAseo(int idPersonalAseo);
         //GetPersonalAseo
         PersonalAseo GetPersonalAseo(int idPersonalAseo);
+        PersonalAseo GetPersonalAseoId(int idPersonalAseo);
+        
     }
 }
