@@ -1,9 +1,0 @@
-C:\UCSalones\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.0\UCS.App.Persistencia.deps.json
-C:\UCSalones\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.0\UCS.App.Persistencia.dll
-C:\UCSalones\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.0\UCS.App.Persistencia.pdb
-C:\UCSalones\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.0\UCS.App.Persistencia.csprojAssemblyReference.cache
-C:\UCSalones\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.0\UCS.App.Persistencia.AssemblyInfoInputs.cache
-C:\UCSalones\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.0\UCS.App.Persistencia.AssemblyInfo.cs
-C:\UCSalones\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.0\UCS.App.Persistencia.csproj.CoreCompileInputs.cache
-C:\UCSalones\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.0\UCS.App.Persistencia.dll
-C:\UCSalones\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.0\UCS.App.Persistencia.pdb
