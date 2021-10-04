@@ -16,6 +16,7 @@
         <th>detalles </th>
         
     </tr>
+
 @foreach (var Directivo in Model.Directivos)
 {
     <tr>
@@ -32,6 +33,7 @@
             </td>
     </tr>
 }
+
 </table>
 </div>
 
@@ -44,6 +46,7 @@
         <th>Nombre</th>
         <th>Apellido</th>
         <th>Departamento </th>
+        <th>Materia </th>
         <th>detalles </th>
     </tr>
 @foreach (var profesor in Model.Profesores)
@@ -53,18 +56,32 @@
             <td>@profesor.nombre</td>
             <td>@profesor.apellido</td>
             <td>@profesor.departamento </td>
+            <td>@profesor.materia </td>
             
             <td>
                 <a class="btn btn-primary table-btn" asp-page="./DetallesProfesores" asp-route-profesoresId="@profesor.id">
                     <i class="fas fa-info-circle"></i> Detalle Profesor
                 </a>
             </td>
+
+            <td>
+                <a class="btn btn-secondary table-btn" asp-page="./EditarProfesores" asp-route-profesoresId="@profesor.id">
+                    <i class="fas fa-info-circle"></i> Editar Profesor
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-danger table-btn" asp-page="./EliminarProfesores" asp-route-profesoresId="@profesor.id">
+                    <i class="fas fa-info-circle"></i> Eliminar Profesor
+                </a>
+            </td>
     </tr>
 }
 </table>
+<a asp-page=".\EditarProfesores" class="btn btn-primary">Adicionar Profesor</a>
 </div>
 
 <h1 href="#Estudiantes" data-toggle="collapse">Lista de estudiantes</h1>
+
 <div class="collapse" id="Estudiantes" >
 <table class="table">
     

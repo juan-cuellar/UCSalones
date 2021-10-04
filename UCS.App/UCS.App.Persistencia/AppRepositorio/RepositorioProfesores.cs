@@ -1,6 +1,7 @@
 using UCS.App.Dominio;
 using System.Collections.Generic;
 using System.Linq;
+using System;
 
 namespace UCS.App.Persistencia
 {
@@ -35,6 +36,9 @@ namespace UCS.App.Persistencia
                 profesoresEncontrado.materia = profesores.materia;
 
                 _appContext.SaveChanges();
+            }
+            else{
+                Console.WriteLine("Error: No se pudo actualizar Profesor con Id: " + profesores.id);
             }
             return profesoresEncontrado;
             
