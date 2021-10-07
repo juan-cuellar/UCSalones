@@ -1,0 +1,13 @@
+D:\Thomas\c3_desarrollo_software\proyectos\neuromante1984GrupalTemporal-master\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Persistencia.deps.json
+D:\Thomas\c3_desarrollo_software\proyectos\neuromante1984GrupalTemporal-master\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Persistencia.dll
+D:\Thomas\c3_desarrollo_software\proyectos\neuromante1984GrupalTemporal-master\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Persistencia.pdb
+D:\Thomas\c3_desarrollo_software\proyectos\neuromante1984GrupalTemporal-master\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Dominio.dll
+D:\Thomas\c3_desarrollo_software\proyectos\neuromante1984GrupalTemporal-master\UCS.App\UCS.App.Persistencia\bin\Debug\netstandard2.1\UCS.App.Dominio.pdb
+D:\Thomas\c3_desarrollo_software\proyectos\neuromante1984GrupalTemporal-master\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csproj.AssemblyReference.cache
+D:\Thomas\c3_desarrollo_software\proyectos\neuromante1984GrupalTemporal-master\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+D:\Thomas\c3_desarrollo_software\proyectos\neuromante1984GrupalTemporal-master\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.AssemblyInfoInputs.cache
+D:\Thomas\c3_desarrollo_software\proyectos\neuromante1984GrupalTemporal-master\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.AssemblyInfo.cs
+D:\Thomas\c3_desarrollo_software\proyectos\neuromante1984GrupalTemporal-master\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\Thomas\c3_desarrollo_software\proyectos\neuromante1984GrupalTemporal-master\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.csproj.CopyComplete
+D:\Thomas\c3_desarrollo_software\proyectos\neuromante1984GrupalTemporal-master\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.dll
+D:\Thomas\c3_desarrollo_software\proyectos\neuromante1984GrupalTemporal-master\UCS.App\UCS.App.Persistencia\obj\Debug\netstandard2.1\UCS.App.Persistencia.pdb

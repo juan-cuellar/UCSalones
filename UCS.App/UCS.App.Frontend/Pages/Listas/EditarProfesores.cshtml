@@ -1,0 +1,42 @@
+﻿@page
+@model UCS.App.Frontend.Pages.EditarProfesoresModel
+@{
+}
+
+<h1>Editar Profesor</h1>
+<form method="Post">
+    <input type="hidden" asp-for="Profesores.id">
+    <div class="form-group">
+        <label asp-for="Profesores.nombre"></label>
+        <input asp-for="Profesores.nombre" class="form-control">
+        <span class="text_danger" asp-validation.for="Profesores.nombre"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Profesores.apellido"></label>
+        <input asp-for="Profesores.apellido" class="form-control">
+        <span class="text_danger" asp-validation.for="Profesores.apellido"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Profesores.identificacion"></label>
+        <input asp-for="Profesores.identificacion" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Profesores.edad"></label>
+        <input asp-for="Profesores.edad" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Profesores.EstadoCovid"></label>
+        <input asp-for="Profesores.EstadoCovid" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Profesores.departamento"></label>
+        <input asp-for="Profesores.departamento" class="form-control">
+        <span class="text_danger" asp-validation.for="Profesores.departamento"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Profesores.materia"></label>
+        <input asp-for="Profesores.materia" class="form-control">
+        <span class="text_danger" asp-validation.for="Profesores.materia"></span>
+    </div>
+    <button type="submit" class="btn btn-primary" asp-page="./EditarProfesores">Guardar Cambios</button>
+</form>

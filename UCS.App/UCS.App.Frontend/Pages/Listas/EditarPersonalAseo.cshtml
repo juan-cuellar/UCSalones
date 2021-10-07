@@ -1,0 +1,38 @@
+﻿@page
+@model UCS.App.Frontend.Pages.EditarPersonalAseoModel
+@{
+}
+
+<h1>Editar Directivo</h1>
+<form method="Post">
+    <input type="hidden" asp-for="PersonalAseo.id">
+    <div class="form-group">
+        <label asp-for="PersonalAseo.nombre"></label>
+        <input asp-for="PersonalAseo.nombre" class="form-control">
+        <span class="text_danger" asp-validation.for="PersonalAseo.nombre"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PersonalAseo.apellido"></label>
+        <input asp-for="PersonalAseo.apellido" class="form-control">
+        <span class="text_danger" asp-validation.for="PersonalAseo.apellido"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PersonalAseo.identificacion"></label>
+        <input asp-for="PersonalAseo.identificacion" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="PersonalAseo.edad"></label>
+        <input asp-for="PersonalAseo.edad" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="PersonalAseo.EstadoCovid"></label>
+        <input asp-for="PersonalAseo.EstadoCovid" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="PersonalAseo.turnoServicio"></label>
+        <input asp-for="PersonalAseo.turnoServicio" class="form-control">
+        <span class="text_danger" asp-validation.for="PersonalAseo.turnoServicio"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary" asp-page="./EditarPersonalAseo">Guardar Cambios</button>
+</form>

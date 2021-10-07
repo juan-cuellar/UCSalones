@@ -1,0 +1,195 @@
+﻿@page
+@model UCS.App.Frontend.Pages.PersonasModel
+@{
+}
+
+
+<h1 href="#Directivos" data-toggle="collapse">Lista de Directivos</h1>
+<div class="collapse" id="Directivos">
+    <table class="table">
+
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Unidad Que desempeña </th>
+            <th>detalles </th>
+
+        </tr>
+
+        @foreach (var Directivo in Model.Directivos)
+
+        {
+            <tr>
+                <td>@Directivo.id</td>
+                <td>@Directivo.nombre</td>
+                <td>@Directivo.apellido</td>
+                <td>@Directivo.unidadDesempeña </td>
+
+
+                <td>
+                    <a class="btn btn-primary table-btn" asp-page="./DetallesDirectivos"
+                    asp-route-directivoId="@Directivo.id">
+                        <i class="fas fa-info-circle"></i> Detalle Directivo
+                    </a>
+                </td>
+                <td>
+                    <a class="btn btn-secondary table-btn" asp-page="./EditarDirectivo"
+                    asp-route-directivoId="@Directivo.id">
+                        <i class="fas fa-info-circle"></i> Editar Directivo
+                    </a>
+                </td>
+                <td>
+                    <a class="btn btn-danger table-btn" asp-page="./EliminarDirectivo"
+                    asp-route-directivoId="@Directivo.id">
+                        <i class="fas fa-info-circle"></i> Eliminar Directivo
+                    </a>
+                </td>
+            </tr>
+
+        }
+
+    </table>
+    <a asp-page=".\EditarDirectivo" class="btn btn-primary">Adicionar Directivo</a>
+</div>
+
+<h1 href="#Profesores" data-toggle="collapse">Lista de Profesores</h1>
+<div class="collapse" id="Profesores">
+    <table class="table">
+
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Departamento </th>
+            <th>Materia </th>
+            <th>detalles </th>
+        </tr>
+        @foreach (var profesor in Model.Profesores)
+
+        {
+            <tr>
+                <td>@profesor.id</td>
+                <td>@profesor.nombre</td>
+                <td>@profesor.apellido</td>
+                <td>@profesor.departamento </td>
+                <td>@profesor.materia </td>
+
+                <td>
+                    <a class="btn btn-primary table-btn" asp-page="./DetallesProfesores"
+                    asp-route-profesoresId="@profesor.id">
+                        <i class="fas fa-info-circle"></i> Detalle Profesor
+                    </a>
+                </td>
+
+                <td>
+                    <a class="btn btn-secondary table-btn" asp-page="./EditarProfesores"
+                    asp-route-profesoresId="@profesor.id">
+                        <i class="fas fa-info-circle"></i> Editar Profesor
+                    </a>
+                </td>
+                <td>
+                    <a class="btn btn-danger table-btn" asp-page="./EliminarProfesores"
+                    asp-route-profesoresId="@profesor.id">
+                        <i class="fas fa-info-circle"></i> Eliminar Profesor
+                    </a>
+                </td>
+            </tr>
+
+        }
+    </table>
+    <a asp-page=".\EditarProfesores" class="btn btn-primary">Adicionar Profesor</a>
+</div>
+
+<h1 href="#Estudiantes" data-toggle="collapse">Lista de Estudiantes</h1>
+
+<div class="collapse" id="Estudiantes">
+    <table class="table">
+
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Carrera</th>
+            <th>detalles </th>
+        </tr>
+        @foreach (var estudiante in Model.Estudiantes)
+
+        {
+            <tr>
+                <td>@estudiante.id</td>
+                <td>@estudiante.nombre</td>
+                <td>@estudiante.apellido</td>
+                <td>@estudiante.carrera</td>
+
+                <td>
+                    <a class="btn btn-primary table-btn" asp-page="./DetallesEstudiantes"
+                    asp-route-estudianteId="@estudiante.id">
+                        <i class="fas fa-info-circle"></i> Detalle Estudiante
+                    </a>
+                </td>
+
+                <td>
+                    <a class="btn btn-secondary table-btn" asp-page="./EditarEstudiante"
+                    asp-route-EstudianteId="@estudiante.id">
+                        <i class="fas fa-info-circle"></i> Editar Estudiante
+                    </a>
+                </td>
+                <td>
+                    <a class="btn btn-danger table-btn" asp-page="./EliminarEstudiante"
+                    asp-route-EstudianteId="@estudiante.id">
+                        <i class="fas fa-info-circle"></i> Eliminar Estudiante
+                    </a>
+                </td>
+            </tr>
+
+        }
+    </table>
+    <a asp-page=".\EditarEstudiante" class="btn btn-primary">Adicionar Estudiante</a>
+</div>
+
+<h1 href="#PersonalAseo" data-toggle="collapse">Lista de Personal de Aseo</h1>
+<div class="collapse" id="PersonalAseo">
+    <table class="table">
+
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Turno de servicio </th>
+            <th>detalles </th>
+
+        </tr>
+        @foreach (var PersonalAseo in Model.PersonaldeAseo)
+
+        {
+            <tr>
+                <td>@PersonalAseo.id</td>
+                <td>@PersonalAseo.nombre</td>
+                <td>@PersonalAseo.apellido</td>
+                <td>@PersonalAseo.turnoServicio </td>
+
+
+                <td>
+                    <a class="btn btn-primary table-btn" asp-page="./DetallesPersonalAseo"
+                    asp-route-personalAseoId="@PersonalAseo.id">
+                        <i class="fas fa-info-circle"></i> Detalle Personal Aseo
+                    </a>
+                </td>
+                <td>
+                    <a class="btn btn-secondary table-btn" asp-page="./EditarPersonalAseo"
+                    asp-route-personalAseoId="@PersonalAseo.id">
+                        <i class="fas fa-info-circle"></i> Editar Personal de Aseo
+                    </a>
+                </td>
+                <td>
+                    <a class="btn btn-danger table-btn" asp-page="./EliminarPersonalAseo"
+                    asp-route-personalAseoId="@PersonalAseo.id">
+                        <i class="fas fa-info-circle"></i> Eliminar Personal de Aseo
+                    </a>
+                </td>
+            </tr>
+
+        }
+    </table>
+</div>

@@ -1,0 +1,20 @@
+﻿@page
+@model UCS.App.Frontend.Pages.DetallesEstudiantesModel
+@{
+}
+<h1>Detalles Estudiantes</h1>
+<table class="table">
+
+    <tr><td>Nombre:</td><td>@Model.Estudiante.nombre</td></tr>
+    <tr><td>Apellido:</td> <td>@Model.Estudiante.apellido</td></tr>
+    <tr><td>Identificación:</td> <td>@Model.Estudiante.identificacion</td></tr>
+    <tr><td>Edad:</td> <td>@Model.Estudiante.edad</td><tr></tr>
+    <tr><td>Estado Covid:</td> <td>@Model.Estudiante.EstadoCovid</td></tr>
+    <tr><td>Carrera:</td> <td>@Model.Estudiante.carrera</td></tr>
+    <tr><td>Semestre:</td> <td>@Model.Estudiante.Semestre</td></tr>
+
+</table>
+
+<a class="btn btn-primary table-btn" asp-page="./Personas">
+                            Lista Personas
+                        </a>

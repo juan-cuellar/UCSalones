@@ -1,0 +1,19 @@
+﻿@page
+@model UCS.App.Frontend.Pages.DetallesPersonalAseoModel
+@{
+}
+<h1>Detalles PersonalAseo</h1>
+<table class="table">
+
+    <tr><td>Nombre:</td><td>@Model.PersonalAseo.nombre</td></tr>
+    <tr><td>Apellido:</td> <td>@Model.PersonalAseo.apellido</td></tr>
+    <tr><td>Identificación:</td> <td>@Model.PersonalAseo.identificacion</td></tr>
+    <tr><td>Edad:</td> <td>@Model.PersonalAseo.edad</td><tr></tr>
+    <tr><td>Estado Covid:</td> <td>@Model.PersonalAseo.EstadoCovid</td></tr>
+    <tr><td>Turno</td> <td>@Model.PersonalAseo.turnoServicio</td></tr>
+
+</table>
+
+<a class="btn btn-primary table-btn" asp-page="./Personas">
+                            Lista Personas
+                        </a>

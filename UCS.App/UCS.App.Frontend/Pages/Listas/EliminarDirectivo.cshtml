@@ -1,0 +1,21 @@
+﻿@page
+@model UCS.App.Frontend.Pages.EliminarDirectivoModel
+@{
+}
+<h1>Se va a Eliminar el Directivo</h1>
+
+<table class="table">
+
+    <tr><td>Nombre:</td><td>@Model.Directivo.nombre</td></tr>
+    <tr><td>Apellido:</td> <td>@Model.Directivo.apellido</td></tr>
+    <tr><td>Identificación:</td> <td>@Model.Directivo.identificacion</td></tr>
+    <tr><td>Edad:</td> <td>@Model.Directivo.edad</td><tr></tr>
+    <tr><td>Estado Covid:</td> <td>@Model.Directivo.EstadoCovid</td></tr>
+    <tr><td>Unidad Desempeña:</td> <td>@Model.Directivo.unidadDesempeña</td></tr>
+
+</table>
+<form method="POST">
+    <input type="hidden" asp-for="Directivo.id">
+    <button type="submit" class="btn btn-primary">Confirmar Eliminar</button>
+
+</form>

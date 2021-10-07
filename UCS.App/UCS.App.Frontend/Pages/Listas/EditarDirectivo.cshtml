@@ -1,0 +1,38 @@
+﻿@page
+@model UCS.App.Frontend.Pages.EditarDirectivoModel
+@{
+}
+
+<h1>Editar Directivo</h1>
+<form method="Post">
+    <input type="hidden" asp-for="Directivo.id">
+    <div class="form-group">
+        <label asp-for="Directivo.nombre"></label>
+        <input asp-for="Directivo.nombre" class="form-control">
+        <span class="text_danger" asp-validation.for="Directivo.nombre"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Directivo.apellido"></label>
+        <input asp-for="Directivo.apellido" class="form-control">
+        <span class="text_danger" asp-validation.for="Directivo.apellido"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Directivo.identificacion"></label>
+        <input asp-for="Directivo.identificacion" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Directivo.edad"></label>
+        <input asp-for="Directivo.edad" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Directivo.EstadoCovid"></label>
+        <input asp-for="Directivo.EstadoCovid" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="Directivo.unidadDesempeña"></label>
+        <input asp-for="Directivo.unidadDesempeña" class="form-control">
+        <span class="text_danger" asp-validation.for="Directivo.unidadDesempeña"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-primary" asp-page="./EditarDirectivo">Guardar Cambios</button>
+</form>
