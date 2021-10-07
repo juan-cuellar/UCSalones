@@ -5741,19 +5741,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thomy\\.nuget\\packages\\": {}
+    "C:\\Users\\docentes\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Thomas\\c3_desarrollo_software\\proyectos\\neuromante1984GrupalTemporal-master\\UCS.App\\UCS.App.Frontend\\UCS.App.Frontend.csproj",
+      "projectUniqueName": "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 6\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\UCS.App.Frontend.csproj",
       "projectName": "UCS.App.Frontend",
-      "projectPath": "D:\\Thomas\\c3_desarrollo_software\\proyectos\\neuromante1984GrupalTemporal-master\\UCS.App\\UCS.App.Frontend\\UCS.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\thomy\\.nuget\\packages\\",
-      "outputPath": "D:\\Thomas\\c3_desarrollo_software\\proyectos\\neuromante1984GrupalTemporal-master\\UCS.App\\UCS.App.Frontend\\obj\\",
+      "projectPath": "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 6\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\UCS.App.Frontend.csproj",
+      "packagesPath": "C:\\Users\\docentes\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 6\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\thomy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\docentes\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5763,13 +5763,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Thomas\\c3_desarrollo_software\\proyectos\\neuromante1984GrupalTemporal-master\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
-              "projectPath": "D:\\Thomas\\c3_desarrollo_software\\proyectos\\neuromante1984GrupalTemporal-master\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj"
+            "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 6\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 6\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj"
             },
-            "D:\\Thomas\\c3_desarrollo_software\\proyectos\\neuromante1984GrupalTemporal-master\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj": {
-              "projectPath": "D:\\Thomas\\c3_desarrollo_software\\proyectos\\neuromante1984GrupalTemporal-master\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj"
+            "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 6\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj": {
+              "projectPath": "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 6\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj"
             }
           }
         }
@@ -5782,7 +5781,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -5801,7 +5799,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
       }
     }
   }
