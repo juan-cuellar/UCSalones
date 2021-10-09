@@ -2,7 +2,7 @@ using System;
 
 namespace UCS.App.Dominio
 {
-     public class Salones
+     public class Salon
     {
         public int id{get;set;}
 
@@ -10,6 +10,6 @@ namespace UCS.App.Dominio
 
         public int maximoAforo{get;set;}
 
-        public string cantidadActualPersonas{get;set;}
+        public int numeroDePuesto {get;set;}
     }
 }

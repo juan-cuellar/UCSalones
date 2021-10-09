@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UCS.App.Dominio;
 
@@ -15,6 +16,10 @@ namespace UCS.App.Persistencia.AppRepositorio
         void DeleteSistemaIngresoPersonal (int idSistemaIngresoPersonal);
         //GetSistemaIngresoPersonal
         SistemaIngresoPersonal GetSistemaIngresoPersonal(int idSistemaIngresoPersonal);
+
+
+        //IEnumerable<SistemaIngresoPersonal> Get
+        
     }
 
 }

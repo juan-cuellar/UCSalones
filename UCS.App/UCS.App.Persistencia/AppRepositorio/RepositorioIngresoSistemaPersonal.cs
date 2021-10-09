@@ -49,7 +49,9 @@ namespace UCS.App.Persistencia.AppRepositorio
             {
                 SistemaIngresoPersonalEncontrado.horayFechaIngreso = SistemaIngresoPersonal.horayFechaIngreso;
                 SistemaIngresoPersonalEncontrado.horayFechaSalida = SistemaIngresoPersonal.horayFechaSalida;
-                SistemaIngresoPersonalEncontrado.sede = SistemaIngresoPersonal.sede;
+                SistemaIngresoPersonalEncontrado.sedes = SistemaIngresoPersonal.sedes;
+                SistemaIngresoPersonalEncontrado.persona = SistemaIngresoPersonal.persona;
+                SistemaIngresoPersonalEncontrado.salones = SistemaIngresoPersonal.salones;
                 SistemaIngresoPersonalEncontrado.sintomas =SistemaIngresoPersonal.sintomas;
                 SistemaIngresoPersonalEncontrado.pruebacovid = SistemaIngresoPersonal.pruebacovid;
                 SistemaIngresoPersonalEncontrado.autoriza = SistemaIngresoPersonal.autoriza;

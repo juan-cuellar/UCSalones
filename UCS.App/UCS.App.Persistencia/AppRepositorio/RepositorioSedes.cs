@@ -4,55 +4,55 @@ using System.Linq;
 
 namespace UCS.App.Persistencia
 {
-    public class RepositorioSedes : IRepositorioSedes
+    public class RepositorioSede : IRepositorioSede
     {
         private readonly AppContext _appContext;
 
-        public RepositorioSedes(AppContext appContext)
+        public RepositorioSede(AppContext appContext)
         {
            
             _appContext = appContext;
         }
 
-        Sedes IRepositorioSedes.AddSedes(Sedes sedes)
+        Sede IRepositorioSede.AddSede(Sede sede)
         {
-            var sedesAdicionado = _appContext.Sedes.Add(sedes);
+            var sedeAdicionado = _appContext.Sede.Add(sede);
             _appContext.SaveChanges();
-            return sedesAdicionado.Entity;
+            return sedeAdicionado.Entity;
         }
 
-        Sedes IRepositorioSedes.UpdateSedes(Sedes sedes)
+        Sede IRepositorioSede.UpdateSede(Sede sede)
         {
-            var sedesEncontrado = _appContext.Sedes.FirstOrDefault(p => p.id == sedes.id);
-            if (sedesEncontrado != null)
+            var sedeEncontrado = _appContext.Sede.FirstOrDefault(p => p.id == sede.id);
+            if (sedeEncontrado != null)
             {
-                sedesEncontrado.nombreFacultad = sedes.nombreFacultad;
-                sedesEncontrado.salonesDisponibles = sedes.salonesDisponibles;
+                sedeEncontrado.nombreFacultad = sede.nombreFacultad;
+                sedeEncontrado.salonesDisponibles = sede.salonesDisponibles;
 
                 _appContext.SaveChanges();
             }
-            return sedesEncontrado;
+            return sedeEncontrado;
             
         }
 
-        void IRepositorioSedes.DeleteSedes(int idSedes)
+        void IRepositorioSede.DeleteSede(int idSede)
         {
-            var sedesEncontrado = _appContext.Sedes.FirstOrDefault(p => p.id == idSedes);
-            if (sedesEncontrado == null)
+            var sedeEncontrado = _appContext.Sede.FirstOrDefault(p => p.id == idSede);
+            if (sedeEncontrado == null)
                 return;
-            _appContext.Sedes.Remove(sedesEncontrado);
+            _appContext.Sede.Remove(sedeEncontrado);
             _appContext.SaveChanges();
         }
 
-        Sedes IRepositorioSedes.GetSedes(int idSedes)
+        Sede IRepositorioSede.GetSede(int idSede)
         {
-            var sedesEncontrado = _appContext.Sedes.FirstOrDefault(p => p.id == idSedes);
-            return sedesEncontrado;
+            var sedeEncontrado = _appContext.Sede.FirstOrDefault(p => p.id == idSede);
+            return sedeEncontrado;
         }
 
-        IEnumerable<Sedes> IRepositorioSedes.GetAllSedes()
+        IEnumerable<Sede> IRepositorioSede.GetAllSedes()
         {
-            return _appContext.Sedes;
+            return _appContext.Sede;
         } 
     }
 }

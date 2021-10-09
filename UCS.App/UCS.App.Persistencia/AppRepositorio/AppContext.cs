@@ -10,8 +10,8 @@ namespace UCS.App.Persistencia
         public DbSet<Estudiante> Estudiantes {get;set;}
         public DbSet<PersonalAseo> PersonaldeAseo {get;set;}
         public DbSet<Profesores> Profesores {get;set;}
-        public DbSet<Salones> Salones {get;set;}
-        public DbSet<Sedes> Sedes {get;set;}
+        public DbSet<Salon> Salon {get;set;}
+        public DbSet<Sede> Sede {get;set;}
         public DbSet<SistemaIngresoPersonal> SistemaIngresoPersonal {get;set;}
         public DbSet<Universidad> Universidades {get;set;}
 

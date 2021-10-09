@@ -7,6 +7,7 @@ namespace UCS.App.Dominio
         dolorGarganta,
         dolorCabeza,
         perdidaOlfato,
-        perdidaGusto
+        perdidaGusto,
+        ninguno
     }
 }

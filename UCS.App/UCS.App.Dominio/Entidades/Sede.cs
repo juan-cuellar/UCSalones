@@ -2,7 +2,7 @@ using System;
 
 namespace UCS.App.Dominio
 {
-    public class Sedes
+    public class Sede
     {
         public int id{get;set;} 
         

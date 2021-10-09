@@ -1,3 +1,4 @@
+using System.Security.AccessControl;
 using System;
 
 namespace UCS.App.Dominio
@@ -10,7 +11,11 @@ namespace UCS.App.Dominio
 
         public DateTime horayFechaSalida{get;set;}
 
-        public string sede{get;set;}
+        public System.Collections.Generic.List<Persona> persona {get;set;}
+
+        public System.Collections.Generic.List<Sede> sedes{get;set;}
+
+        public System.Collections.Generic.List<Salon> salones{get;set;}
 
         public Sintomas sintomas{get;set;}
 

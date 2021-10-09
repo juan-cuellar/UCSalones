@@ -14,7 +14,7 @@ namespace UCS.App.Consola
     class Program
     {
         private static IRepositorioDirectivo _repoDirectivo = new RepositorioDirectivo(new Persistencia.AppContext());
-        private static IRepositorioSalones _repoSalones = new RepositorioSalones(new Persistencia.AppContext());
+        private static IRepositorioSalon _repoSalon = new RepositorioSalon(new Persistencia.AppContext());
 
         private static IRepositorioEstudiante _repoEstudiante = new RepositorioEstudiante(new Persistencia.AppContext());
 
@@ -23,7 +23,7 @@ namespace UCS.App.Consola
 
         private static IRepositorioProfesores _repoProfesores = new RepositorioProfesores(new Persistencia.AppContext());
 
-        private static IRepositorioSedes _repoSedes = new RepositorioSedes(new Persistencia.AppContext());
+        private static IRepositorioSede _repoSede = new RepositorioSede(new Persistencia.AppContext());
 
         private static IRepositorioUniversidad _repoUniversidad = new RepositorioUniversidad(new Persistencia.AppContext());
 
@@ -165,60 +165,60 @@ namespace UCS.App.Consola
         }
 
         //AddSalones
-        private static void AddSalones()
+        private static void AddSalon()
         {
-            var salones = new Salones
+            var salon = new Salon
             {
                 numeroSalon = 1,
                 maximoAforo = 20,
-                cantidadActualPersonas = "18"
+                numeroDePuesto = 18
             };
 
-            Console.WriteLine("Salon ingresado >>:  Salon id: " + salones.id + ", numero de salon: " + salones.numeroSalon + " Maximo Aforo: " + salones.maximoAforo);
-            Salones salonesRetornado = _repoSalones.AddSalones(salones);
-            if (salonesRetornado != null)
-                Console.WriteLine("Se realizo un nuevo registro en la base de datos:>> Salonid: " + salonesRetornado.id + ", Numero de salon: " + salonesRetornado.numeroSalon);
+            Console.WriteLine("Salon ingresado >>:  Salon id: " + salon.id + ", numero de salon: " + salon.numeroSalon + " Maximo Aforo: " + salon.maximoAforo);
+            Salon salonRetornado = _repoSalon.AddSalon(salon);
+            if (salonRetornado != null)
+                Console.WriteLine("Se realizo un nuevo registro en la base de datos:>> Salonid: " + salonRetornado.id + ", Numero de salon: " + salonRetornado.numeroSalon);
         }
 
 
-        //BuscarSalones
-        private static void BuscarSalones(int idSalones)
+        //BuscarSalon
+        private static void BuscarSalon(int idSalon)
         {
-            var salones = _repoSalones.GetSalones(idSalones);
-            if (salones != null)
+            var salon = _repoSalon.GetSalon(idSalon);
+            if (salon != null)
             {
-                Console.WriteLine("Se buscó un salón en la base de datos:>> Salon numero: " + salones.numeroSalon + " Maximo Aforo" + salones.maximoAforo + " Cantidad Actual de personas: " + salones.cantidadActualPersonas);
+                Console.WriteLine("Se buscó un salón en la base de datos:>> Salon numero: " + salon.numeroSalon + " Maximo Aforo" + salon.maximoAforo + " Cantidad Actual de personas: " + salon.numeroDePuesto);
             }
             else
             {
-                Console.WriteLine("Error: Se buscó un salón en la base de datos y no se encontró resultado:>> id: " + idSalones);
+                Console.WriteLine("Error: Se buscó un salón en la base de datos y no se encontró resultado:>> id: " + idSalon);
             }
 
         }
 
-        //DeleteSalones
-        private static void EliminarSalones(int idSalones)
+        //DeleteSalon
+        private static void EliminarSalon(int idSalon)
         {
-            _repoSalones.DeleteSalones(idSalones);
-            Console.WriteLine("Se eliminó un registro de la base de datos con id: " + idSalones);
+            _repoSalon.DeleteSalon(idSalon);
+            Console.WriteLine("Se eliminó un registro de la base de datos con id: " + idSalon);
         }
 
 
-        //UpdateSalones
-        private static void ActualizarSalones()
+        //UpdateSalon
+        private static void ActualizarSalon()
         {
-            var salones = new Salones
+            var salon = new Salon
             {
                 id = 1,
                 maximoAforo = 20,
-                cantidadActualPersonas = "15",
+                numeroDePuesto = 15,
                 numeroSalon = 5
 
             };
-            Salones salonesRetornado = _repoSalones.UpdateSalones(salones);
-            if (salonesRetornado != null)
+            Salon salonRetornado = _repoSalon.UpdateSalon(salon);
+            if (salonRetornado != null)
             {
-                Console.WriteLine("Se sustituyo un salon en la base de datos con id: " + salonesRetornado.id);
+                Console.WriteLine("Se sustituyo un salon en la base de datos con id: " + salonRetornado.id);
             }
             else
             {
@@ -228,14 +228,14 @@ namespace UCS.App.Consola
         }
 
 
-        //GetAllSalones
-        private static void BuscarTodosLosSalones()
+        //GetAllSalon
+        private static void BuscarTodosLosSalon()
         {
-            IEnumerable<Salones> todosLosSalones = _repoSalones.GetAllSalones();
-            Console.WriteLine("Se buscaron todos los salones de la base de datos:>> ");
-            foreach (var salones in todosLosSalones)
+            IEnumerable<Salon> todosLosSalon = _repoSalon.GetAllSalones();
+            Console.WriteLine("Se buscaron todos los salon de la base de datos:>> ");
+            foreach (var salon in todosLosSalon)
             {
-                Console.WriteLine("    Salon id: " + salones.id + ", numero de Salon: " + salones.numeroSalon + ", cantidad actual de personas: " + salones.cantidadActualPersonas + ", maximo aforo: " + salones.maximoAforo);
+                Console.WriteLine("    Salon id: " + salon.id + ", numero de Salon: " + salon.numeroSalon + ", cantidad actual de personas: " + salon.numeroDePuesto + ", maximo aforo: " + salon.maximoAforo);
             }
             Console.WriteLine("");
 
@@ -338,7 +338,7 @@ namespace UCS.App.Consola
             {
                 horayFechaIngreso = DateTime.ParseExact("02/08/2014; 10:00", "dd/MM/yyyy; hh:mm", CultureInfo.InvariantCulture),
                 horayFechaSalida = DateTime.ParseExact("02/08/2014; 10:20", "dd/MM/yyyy; hh:mm", CultureInfo.InvariantCulture),
-                sede = "Central",
+                sedes = null,
                 sintomas = Sintomas.congestion,
                 pruebacovid = true,
                 autoriza = true,
@@ -390,7 +390,7 @@ namespace UCS.App.Consola
                 id = 1,
                 horayFechaIngreso = DateTime.ParseExact("02/08/2014; 10:00", "dd/MM/yyyy; hh:mm", CultureInfo.InvariantCulture),
                 horayFechaSalida = DateTime.ParseExact("02/08/2014; 10:30", "dd/MM/yyyy; hh:mm", CultureInfo.InvariantCulture),
-                sede = "Secundaria",
+                sedes = null,
                 sintomas = Sintomas.congestion,
                 pruebacovid = false,
                 autoriza = false,
@@ -565,22 +565,22 @@ namespace UCS.App.Consola
          Sedes
         */
         //AddSedes().
-        private static void AddSedes()
+        private static void AddSede()
         {
-            var sedes = new Sedes
+            var sedes = new Sede
             {
                 nombreFacultad = NombreFacultad.ingenieria,
                 salonesDisponibles = 4
             };
-            Console.WriteLine("Nombre de la Sede: " + sedes.nombreFacultad + ", Salones Disponibles = " + sedes.salonesDisponibles);
-            Sedes sedes_retornado = _repoSedes.AddSedes(sedes);
+            Console.WriteLine("Nombre de la Sede: " + sedes.nombreFacultad + ", Salon Disponibles = " + sedes.salonesDisponibles);
+            Sede sedes_retornado = _repoSede.AddSede(sedes);
             Console.WriteLine("Se registró Sede en la base de datos");
         }
 
         //GetSedes
         private static void BuscarSede(int idSedes)
         {
-            var sedes = _repoSedes.GetSedes(idSedes);
+            var sedes = _repoSede.GetSede(idSedes);
             if (sedes != null)
             {
                 Console.WriteLine("Se ha buscado una sede con id:" + sedes.id + ", nombre facultad: " + sedes.nombreFacultad);
@@ -593,19 +593,19 @@ namespace UCS.App.Consola
         //DeleteSedes
         private static void EliminarSedes(int idSedes)
         {
-            _repoSedes.DeleteSedes(idSedes);
+            _repoSede.DeleteSede(idSedes);
         }
 
         //UpdateSedes
         private static void ActualizarSedes()
         {
-            var sedes = new Sedes
+            var sedes = new Sede
             {
                 id = 1,
                 nombreFacultad = NombreFacultad.artesyhumanidades,
                 salonesDisponibles = 5
             };
-            Sedes sedes_retornado = _repoSedes.UpdateSedes(sedes);
+            Sede sedes_retornado = _repoSede.UpdateSede(sedes);
             if (sedes_retornado != null)
             {
                 Console.WriteLine("Se actualizó una Sede en la base de datos");
@@ -619,7 +619,7 @@ namespace UCS.App.Consola
         //GetAllSedes
         private static void BuscarSedes()
         {
-            IEnumerable<Sedes> sedes = _repoSedes.GetAllSedes();
+            IEnumerable<Sede> sedes = _repoSede.GetAllSedes();
             foreach (var sede in sedes)
             {
                 Console.WriteLine(sede.nombreFacultad);
