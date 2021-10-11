@@ -5800,19 +5800,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\Salones\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\UCS.App.Frontend.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\proyectoGrupalThomas\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\UCS.App.Frontend.csproj",
       "projectName": "UCS.App.Frontend",
-      "projectPath": "C:\\Users\\user\\Desktop\\Salones\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\UCS.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\Salones\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\obj\\",
+      "projectPath": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\proyectoGrupalThomas\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\UCS.App.Frontend.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\proyectoGrupalThomas\\neuromante-1984\\UCS.App\\UCS.App.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5823,11 +5823,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\Salones\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\Salones\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj"
+            "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\proyectoGrupalThomas\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\proyectoGrupalThomas\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj"
             },
-            "C:\\Users\\user\\Desktop\\Salones\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\Salones\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj"
+            "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\proyectoGrupalThomas\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj": {
+              "projectPath": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\proyectoGrupalThomas\\neuromante-1984\\UCS.App\\UCS.App.Persistencia\\UCS.App.Persistencia.csproj"
             }
           }
         }
@@ -5866,7 +5866,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.119\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
       }
     }
   }
