@@ -1,7 +1,8 @@
-using System.Runtime.InteropServices;
+using System;
 using UCS.App.Dominio;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace UCS.App.Persistencia.AppRepositorio
 {
@@ -60,5 +61,21 @@ namespace UCS.App.Persistencia.AppRepositorio
             }
             return SistemaIngresoPersonalEncontrado;
         }
+
+
+        IEnumerable<SistemaIngresoPersonal> IRepositorioSistemaIngresoPersonal.GetSistemaIngresoPersonalConSede(NombreFacultad nombreFacultad)
+        {
+            return _appContext.SistemaIngresoPersonal.Where(s=>s.sedes.Any(n=>n.nombreFacultad==nombreFacultad)).ToList();
+        }
+
+        IEnumerable<SistemaIngresoPersonal> IRepositorioSistemaIngresoPersonal.GetSistemaIngresoPesonalConPersona(EstadoCovid EstadoCovid)
+        {
+            return _appContext.SistemaIngresoPersonal.Where(p=>p.persona.Any(n=>n.EstadoCovid==EstadoCovid)).ToList();
+        }
+
+        //  IEnumerable<SistemaIngresoPersonal> IRepositorioSistemaIngresoPersonal.GetSistemaIngresoPersonalConSedeYPersona(NombreFacultad nombreFacultad,EstadoCovid EstadoCovid)
+        //  {
+        //      return _appContext.SistemaIngresoPersonal.Where(s=>s.sedes, p=>p.persona.Any(n=>n.EstadoCovid==EstadoCovid && n.nombreFacultad==nombreFacultad)).ToList();
+        //  }
     }
 }

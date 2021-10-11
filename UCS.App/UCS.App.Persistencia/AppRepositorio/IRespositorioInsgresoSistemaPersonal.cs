@@ -17,8 +17,13 @@ namespace UCS.App.Persistencia.AppRepositorio
         //GetSistemaIngresoPersonal
         SistemaIngresoPersonal GetSistemaIngresoPersonal(int idSistemaIngresoPersonal);
 
+        //GetSistemaIngresoPersonalConSede
+        IEnumerable<SistemaIngresoPersonal> GetSistemaIngresoPersonalConSede(NombreFacultad nombreFacultad);
+        //GetSistemaIngresoPesonalConPersona
+        IEnumerable<SistemaIngresoPersonal> GetSistemaIngresoPesonalConPersona(EstadoCovid EstadoCovid);
+        //GetSistemaIngresoPersonalConSedeYPersona 
 
-        //IEnumerable<SistemaIngresoPersonal> Get
+        //IEnumerable<SistemaIngresoPersonal> GetSistemaIngresoPersonalConSedeYPersona(NombreFacultad nombreFacultad,EstadoCovid EstadoCovid);
         
     }
 

@@ -1,12 +1,12 @@
-﻿using System.Data;
-using System.Runtime.InteropServices;
+﻿//using System.Data;
+//using System.Runtime.InteropServices;
 using System;
 using UCS.App.Dominio;
 using UCS.App.Persistencia;
 using System.Collections.Generic;
 using System.Linq;
 using UCS.App.Persistencia.AppRepositorio;
-using System.Security.Principal;
+//using System.Security.Principal;
 using System.Globalization;
 
 namespace UCS.App.Consola
@@ -29,61 +29,78 @@ namespace UCS.App.Consola
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Este es mi primer sprint\n");
-            Console.WriteLine("\nOperaciones CRUD para Directivo:");
+            //Console.WriteLine("Este es mi primer sprint\n");
+            //Console.WriteLine("\nOperaciones CRUD para Directivo:");
             // AddDirectivo();
             // BuscarDirectivo(1);
             // ActualizarDirectivo();
             // BuscarTodosLosDirectivos();
             // EliminarDirectivo(1);
 
-            Console.WriteLine("\nOperaciones CRUD para Salones:");
+            //Console.WriteLine("\nOperaciones CRUD para Salones:");
             // AddSalones();
             // BuscarSalones(1);
             // ActualizarSalones();
             // BuscarTodosLosSalones();
             // EliminarSalones(1);
 
-            Console.WriteLine("\nOperaciones CRUD para Estudiante:");
+            //Console.WriteLine("\nOperaciones CRUD para Estudiante:");
             // AddEstudiante();
             // BuscarEstudiante(1);
             // ActualizarEstudiante();
             // BuscarTodosLosEstudiantes();
             // EliminarEstudiante(1);
 
-            Console.WriteLine("\nOperaciones CRUD para Sistema Ingreso Personal:");
+            //Console.WriteLine("\nOperaciones CRUD para Sistema Ingreso Personal:");
             // AddSistemaIngresoPersonal();
             // BuscarSistemaIngresoPersonal(1);
             // ActualizarSistemaIngresoPersonal();
             // EliminarSistemaIngresoPersonal(2);
 
-            Console.WriteLine("\nOperaciones CRUD para Personal Aseo:");
+            //Console.WriteLine("\nOperaciones CRUD para Personal Aseo:");
             // AddPersonalAseo();
             // BuscarPersonalAseo(1);
             // ActualizarPersonalAseo();
             // BuscarTodosPersonalAseo();
             // EliminarPersonalAseo(11);
 
-            Console.WriteLine("\nOperaciones CRUD para Profesores:");
+            //Console.WriteLine("\nOperaciones CRUD para Profesores:");
             // AddProfesores();
             // BuscarProfesor(1);
             // ActualizarProfesores();
             // BuscarProfesores();
             // EliminarProfesores(1);
 
-            Console.WriteLine("\nOperaciones CRUD para Sedes:");
+            //Console.WriteLine("\nOperaciones CRUD para Sedes:");
             // AddSedes();
             // BuscarSede(1);
             // ActualizarSedes();
             // BuscarSedes();
             // EliminarSedes(1);
 
-            Console.WriteLine("\nOperaciones CRUD para Universidad:");
+            //Console.WriteLine("\nOperaciones CRUD para Universidad:");
             // AddUniversidad();
             // BuscarUniversidad(1);
             // ActualizarUniversidad();
             // BuscarUniversidades();
             // EliminarUniversidad(2);
+
+            AdicionarSistemaIngresoEstudianteConSede();
+
+
+            // IEnumerable<SistemaIngresoPersonal> sistemaIngresosSede = _repoSistemaIngresoPersonal.GetSistemaIngresoPersonalConSede(NombreFacultad.ingenieria);
+            // foreach (var sistema in sistemaIngresosSede)
+            // {
+            //     Console.WriteLine(sistema.id);
+            // }
+            // Console.WriteLine("Fin del programa");
+
+            // IEnumerable<SistemaIngresoPersonal> sistemaIngresosPersona = _repoSistemaIngresoPersonal.GetSistemaIngresoPesonalConPersona(EstadoCovid.covidNegativo);
+            // foreach (var sistema in sistemaIngresosPersona)
+            // {
+            //     Console.WriteLine(sistema.id);
+            // }
+            // Console.WriteLine("Fin del programa");
 
         }
 
@@ -332,13 +349,15 @@ namespace UCS.App.Consola
         }
 
         //AddSistemaIngresoPersonal
-        private static void AddSistemaIngresoPersonal()
+        private static SistemaIngresoPersonal AddSistemaIngresoPersonal()
         {
             var SistemaIngresoPersonal = new SistemaIngresoPersonal
             {
                 horayFechaIngreso = DateTime.ParseExact("02/08/2014; 10:00", "dd/MM/yyyy; hh:mm", CultureInfo.InvariantCulture),
                 horayFechaSalida = DateTime.ParseExact("02/08/2014; 10:20", "dd/MM/yyyy; hh:mm", CultureInfo.InvariantCulture),
+                persona = null,
                 sedes = null,
+                salones = null,
                 sintomas = Sintomas.congestion,
                 pruebacovid = true,
                 autoriza = true,
@@ -355,9 +374,9 @@ namespace UCS.App.Consola
             {
                 Console.WriteLine("Se presento un error en la adicion: AddSistemaIngresoPersonal");
             }
+            return SistemaIngresoPersonalRetornado;
 
         }
-
 
         //BuscarSistemaIngresoPersonal
         private static void BuscarSistemaIngresoPersonal(int idSistemaIngresoPersonal)
@@ -700,6 +719,73 @@ namespace UCS.App.Consola
             Console.WriteLine("");
 
         }
+
+//======================================================
+//======================================================
+//NUEVAS FUNCIONES QUE SE RELACIONAN ENTRE LAS ENTIDADES
+//======================================================
+//======================================================
+
+         private static SistemaIngresoPersonal AdicionarSistemaIngresoEstudianteConSede()
+        {
+           
+         var SistemaIngresoPersonal = new SistemaIngresoPersonal
+            {
+                horayFechaIngreso = DateTime.ParseExact("02/08/2014; 10:00", "dd/MM/yyyy; hh:mm", CultureInfo.InvariantCulture),
+                horayFechaSalida = DateTime.ParseExact("02/08/2014; 10:20", "dd/MM/yyyy; hh:mm", CultureInfo.InvariantCulture),
+                persona =new List<Persona> {
+	                new Estudiante{
+		                nombre = "Alvaro",apellido="Ramirez",identificacion=101,edad=30,EstadoCovid=EstadoCovid.covidPositivo
+	                }
+                },
+                sedes =new List<Sede>{
+                    new Sede{
+                        nombreFacultad=NombreFacultad.cienciasexactasynaturales,
+                        salonesDisponibles=6
+                    },
+                     new Sede{
+                        nombreFacultad=NombreFacultad.ingenieria,
+                        salonesDisponibles=4
+                    },
+                     new Sede{
+                        nombreFacultad=NombreFacultad.cienciasjuridicasysociales,
+                        salonesDisponibles=5
+                    }
+                },
+                salones = new List<Salon>{
+                    new Salon{
+                        numeroSalon=1,maximoAforo=10,numeroDePuesto=4 
+                    },
+                    new Salon{
+                        numeroSalon=2,maximoAforo=10,numeroDePuesto=5 
+                    },
+                    new Salon{
+                        numeroSalon=3,maximoAforo=10,numeroDePuesto=6 
+                    }
+                },
+                sintomas = Sintomas.congestion,
+                pruebacovid = true,
+                autoriza = false,
+
+            };
+
+            Console.WriteLine("SistemaIngresoPersonal ingresado >> SistemaIngresoPersonal: " + SistemaIngresoPersonal.persona + " " + SistemaIngresoPersonal.sedes);
+            SistemaIngresoPersonal SistemaIngresoPersonalRetornado = _repoSistemaIngresoPersonal.AddSistemaIngresoPersonal(SistemaIngresoPersonal);
+            if (SistemaIngresoPersonalRetornado != null)
+            {
+                Console.WriteLine("Se realizo un nuevo registro en la base de datos:>> SistemaIngresoPersonal hora y fecha ingreso: " + SistemaIngresoPersonalRetornado.horayFechaIngreso + ", fecha salida Sistema Ingreso Personal: " + SistemaIngresoPersonalRetornado.horayFechaSalida);
+            }
+            else
+            {
+                Console.WriteLine("Se presento un error en la adicion: AddSistemaIngresoPersonal");
+            }
+            return SistemaIngresoPersonalRetornado;
+            
+        }
+
+
+
+
     }
 
 }
