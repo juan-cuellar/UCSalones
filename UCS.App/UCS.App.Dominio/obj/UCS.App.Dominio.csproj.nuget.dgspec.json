@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Salones\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {}
+    "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\proyectoGrupalThomas\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Salones\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
+    "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\proyectoGrupalThomas\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Salones\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\proyectoGrupalThomas\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
         "projectName": "UCS.App.Dominio",
-        "projectPath": "C:\\Users\\user\\Desktop\\Salones\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Salones\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\proyectoGrupalThomas\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\proyectoGrupalThomas\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -57,7 +57,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.119\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
         }
       }
     }

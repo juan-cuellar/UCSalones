@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "sn5aptnQLtj3nShLwP/m3bNGe4wNMSig2Bug+2HwkXvGgUdZXyiPNIiPT6umU5fegT3iZj/iRDUZtxZ9AjKrEQ==",
+  "dgSpecHash": "h2NByKCPTBfTr96g2WfSkqCRlgrOHa5wMRupVF7yawz304VXzD1s9D7KfbYieCTBztQMsvddq4Y005L1T9QJEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\docentes\\Documents\\misionTIC\\ciclo 3\\desarrollo software\\semana 6\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Downloads\\Misión TIC 2022\\C3\\DS-C3-23\\proyectoGrupalThomas\\neuromante-1984\\UCS.App\\UCS.App.Dominio\\UCS.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\docentes\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\docentes\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\docentes\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
