@@ -17,5 +17,7 @@ namespace UCS.App.Dominio
         [Required]
         public EstadoCovid EstadoCovid{get;set;}
 
+        public Sintomas sintomas{get;set;}
+
     }
 }

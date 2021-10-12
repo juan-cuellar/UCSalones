@@ -8,5 +8,6 @@ namespace UCS.App.Dominio
         public string carrera{get;set;}
 
         public string Semestre{get;set;}
+
     }
 }

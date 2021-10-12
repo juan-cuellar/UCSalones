@@ -50,6 +50,7 @@ namespace UCS.App.Persistencia.AppRepositorio
                 PersonalAseoEncontrado.identificacion = PersonalAseo.identificacion;
                 PersonalAseoEncontrado.edad =PersonalAseo.edad;
                 PersonalAseoEncontrado.EstadoCovid = PersonalAseo.EstadoCovid;
+                PersonalAseoEncontrado.sintomas = PersonalAseo.sintomas;
                 PersonalAseoEncontrado.turnoServicio = PersonalAseo.turnoServicio;
                                 
                 _appContext.SaveChanges();

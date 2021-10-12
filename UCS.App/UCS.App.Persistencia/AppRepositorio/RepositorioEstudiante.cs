@@ -50,6 +50,7 @@ namespace UCS.App.Persistencia.AppRepositorio
                 estudianteEncontrado.identificacion = Estudiante.identificacion;
                 estudianteEncontrado.edad =Estudiante.edad;
                 estudianteEncontrado.EstadoCovid = Estudiante.EstadoCovid;
+                estudianteEncontrado.sintomas = Estudiante.sintomas;
                 estudianteEncontrado.carrera = Estudiante.carrera;
                 estudianteEncontrado.Semestre = Estudiante.Semestre;
                 

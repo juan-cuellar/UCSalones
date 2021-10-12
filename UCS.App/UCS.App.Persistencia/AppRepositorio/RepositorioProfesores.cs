@@ -32,6 +32,7 @@ namespace UCS.App.Persistencia
                 profesoresEncontrado.identificacion = profesores.identificacion;
                 profesoresEncontrado.edad = profesores.edad;
                 profesoresEncontrado.EstadoCovid = profesores.EstadoCovid;
+                profesoresEncontrado.sintomas = profesores.sintomas;
                 profesoresEncontrado.departamento = profesores.departamento;
                 profesoresEncontrado.materia = profesores.materia;
 

@@ -34,6 +34,7 @@ namespace UCS.App.Persistencia.AppRepositorio
                 directivoEncontrado.edad =directivo.edad;
                 directivoEncontrado.EstadoCovid = directivo.EstadoCovid;
                 directivoEncontrado.unidadDesempeña = directivo.unidadDesempeña;
+                directivoEncontrado.sintomas = directivo.sintomas;
 
                 _appContext.SaveChanges();
             }

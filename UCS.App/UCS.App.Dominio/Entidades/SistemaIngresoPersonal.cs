@@ -17,8 +17,6 @@ namespace UCS.App.Dominio
 
         public System.Collections.Generic.List<Salon> salones{get;set;}
 
-        public Sintomas sintomas{get;set;}
-
         public Boolean pruebacovid{get;set;}
 
         public Boolean autoriza{get;set;}

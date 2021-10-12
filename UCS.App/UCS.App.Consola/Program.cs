@@ -1,4 +1,5 @@
-﻿//using System.Data;
+﻿using System.Reflection.Metadata;
+//using System.Data;
 //using System.Runtime.InteropServices;
 using System;
 using UCS.App.Dominio;
@@ -85,7 +86,12 @@ namespace UCS.App.Consola
             // BuscarUniversidades();
             // EliminarUniversidad(2);
 
-            AdicionarSistemaIngresoEstudianteConSede();
+            //AdicionarSistemaIngresoEstudianteConSede();
+
+
+            Profesores profesor1 = new Profesores{nombre="Raul",apellido="Mesa",identificacion=230,edad=34,EstadoCovid=EstadoCovid.covidNegativo,departamento="Ingeniería",materia="Ingeniería Sistemas"};
+
+            AddSalonConProfesor(profesor1);
 
 
             // IEnumerable<SistemaIngresoPersonal> sistemaIngresosSede = _repoSistemaIngresoPersonal.GetSistemaIngresoPersonalConSede(NombreFacultad.ingenieria);
@@ -358,7 +364,6 @@ namespace UCS.App.Consola
                 persona = null,
                 sedes = null,
                 salones = null,
-                sintomas = Sintomas.congestion,
                 pruebacovid = true,
                 autoriza = true,
 
@@ -410,7 +415,7 @@ namespace UCS.App.Consola
                 horayFechaIngreso = DateTime.ParseExact("02/08/2014; 10:00", "dd/MM/yyyy; hh:mm", CultureInfo.InvariantCulture),
                 horayFechaSalida = DateTime.ParseExact("02/08/2014; 10:30", "dd/MM/yyyy; hh:mm", CultureInfo.InvariantCulture),
                 sedes = null,
-                sintomas = Sintomas.congestion,
+            
                 pruebacovid = false,
                 autoriza = false,
             };
@@ -735,7 +740,7 @@ namespace UCS.App.Consola
                 horayFechaSalida = DateTime.ParseExact("02/08/2014; 10:20", "dd/MM/yyyy; hh:mm", CultureInfo.InvariantCulture),
                 persona =new List<Persona> {
 	                new Estudiante{
-		                nombre = "Alvaro",apellido="Ramirez",identificacion=101,edad=30,EstadoCovid=EstadoCovid.covidPositivo
+		                nombre = "Monica",apellido="Az",identificacion=101,edad=30,EstadoCovid=EstadoCovid.covidPositivo, carrera="Ingeniería",Semestre="3"
 	                }
                 },
                 sedes =new List<Sede>{
@@ -763,7 +768,6 @@ namespace UCS.App.Consola
                         numeroSalon=3,maximoAforo=10,numeroDePuesto=6 
                     }
                 },
-                sintomas = Sintomas.congestion,
                 pruebacovid = true,
                 autoriza = false,
 
@@ -781,6 +785,24 @@ namespace UCS.App.Consola
             }
             return SistemaIngresoPersonalRetornado;
             
+        }
+
+
+        private static void AddSalonConProfesor(Profesores profesor)
+        {
+            var salon = new Salon
+            {
+                numeroSalon=10,
+                maximoAforo=10,
+                numeroDePuesto=12,
+                estudiantes=null,
+                profesor=profesor
+
+            };
+             Console.WriteLine(salon.numeroSalon+" "+ salon.profesor);
+            Salon salon_retornado = _repoSalon.AddSalon(salon);
+            if (salon_retornado!=null)
+                Console.WriteLine("Se registró un salón en la base de datos");
         }
 
 

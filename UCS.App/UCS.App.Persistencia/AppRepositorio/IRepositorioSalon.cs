@@ -16,5 +16,7 @@ namespace UCS.App.Persistencia.AppRepositorio
         void DeleteSalon(int idSalon);
         //GetSalon
         Salon GetSalon(int idSalon);
+
+        Salon GetSalonConProfesor(int idSalon);
     }
 }

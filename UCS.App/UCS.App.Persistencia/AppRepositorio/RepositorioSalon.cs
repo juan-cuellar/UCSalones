@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using UCS.App.Dominio;
+using System;
+using Microsoft.EntityFrameworkCore;
 
 namespace UCS.App.Persistencia.AppRepositorio
 {
@@ -31,6 +33,8 @@ namespace UCS.App.Persistencia.AppRepositorio
                 SalonEncontrado.maximoAforo = Salon.maximoAforo;
                 SalonEncontrado.maximoAforo =Salon.maximoAforo;
                 SalonEncontrado.numeroDePuesto = Salon.numeroDePuesto;
+                SalonEncontrado.estudiantes = Salon.estudiantes;
+                SalonEncontrado.profesor = Salon.profesor;
                 
 
                 _appContext.SaveChanges();
@@ -57,5 +61,14 @@ namespace UCS.App.Persistencia.AppRepositorio
         {
             return _appContext.Salon;
         }
+
+        Salon IRepositorioSalon.GetSalonConProfesor(int idSalon)
+        {
+            var salonEncontrado= _appContext.Salon.Include(p => p.profesor).FirstOrDefault(p=>p.id==idSalon);
+            return salonEncontrado;
+        }
+        
+
+
     }
 }
